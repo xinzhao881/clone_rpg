@@ -1,0 +1,12 @@
+# ninja log v6
+26	130	1747463428652570001	clone_rpg	ae727a2245fc017d
+0	455	1747463220318649282	CMakeFiles/clone_rpg.dir/src/main.cpp.o	6bb66baba23827e6
+1	322	1746961878632977848	CMakeFiles/clone_rpg.dir/main.cpp.o	d25be955dd22218c
+1	47	1747463691771410836	build.ninja	2fb8cc676dfae73d
+2	26	1747463428628415892	CMakeFiles/clone_rpg.dir/src/stats/hp.cpp.o	d784ed621f540f58
+3	27	1747463868754065255	CMakeFiles/clone_rpg.dir/src/stats/hp.cpp.o	d784ed621f540f58
+8	34	1747477830367635775	CMakeFiles/clone_rpg.dir/src/stats/hp.cpp.o	d784ed621f540f58
+3	28	1747477986219437799	CMakeFiles/clone_rpg.dir/src/stats/hp.cpp.o	d784ed621f540f58
+3	31	1747478073683179975	CMakeFiles/clone_rpg.dir/src/stats/hp.cpp.o	d784ed621f540f58
+3	82	1747478147319210784	CMakeFiles/clone_rpg.dir/src/stats/hp.cpp.o	d784ed621f540f58
+3	243	1747478165203324446	CMakeFiles/clone_rpg.dir/src/character/warrior.cpp.o	e296b7f6b51f4f9c
