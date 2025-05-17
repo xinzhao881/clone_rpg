@@ -10,8 +10,10 @@ Reference from (https://www.youtube.com/@CodeTechandTutorials)
 ## How it works:
  - Stats:
     - Strength
-    - inteligence
-    - exp
- - Leveling : 캐릭터는 exp stat을 가지고 있다.
- - Techtree
+    - intelligence
+    - experience
+ - Leveling: gets experience when you defeat mobs or do a particular task 
+ - Tech-tree(to be implemented)
+ - skills: basic spells for mages and 
  - moving from one place to other
+

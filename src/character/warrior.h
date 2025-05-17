@@ -6,16 +6,15 @@
 #include "../stats/hp.h"
 #include<string>
 
-#include "../stats/statblock.h"
+#include "../stats/statBlock.h"
 
 class warrior : public Character{
 public:
     warrior();
     ~warrior();
 private:
-    static const hptype hpGrowth = static_cast<hptype>(19u);
-    static const statType baseStrength = static_cast<hptype>(10u);
-    static const statType baseIntelligence = static_cast<hptype>(10u);
+    static const statType baseStrength = 10u;
+    static const statType baseIntelligence =10u;
     std::string name;
 
 };

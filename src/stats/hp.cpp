@@ -27,7 +27,7 @@ void HP::heal(hptype heal) {
     }
 }
 
-hptype HP::getMaxHP() {
+hptype HP::getMaxHP() const {
     return this->maxHP;
 }
 

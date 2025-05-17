@@ -8,7 +8,7 @@ public:
     bool setMaxHP(hptype maxHP);
     void takeDamage(hptype damage);
     void heal(hptype heal);
-    hptype getMaxHP();
+    [[nodiscard]] hptype getMaxHP() const;
     hptype getCurrentHP() const;
 
     HP(hptype currentHP, hptype maxHP);

@@ -8,22 +8,23 @@
 #include <string>
 
 #include "../stats/hp.h"
-#include "../stats/statblock.h"
+#include "../stats/statBlock.h"
 class Character {
 protected:
     HP hp;
     std::string name;
-    hptype HP_GROWTH;
+    //hptype hpGrowth; 나중에 레벨업 구현할때 사용하겠음
     statBlock stats;
 
 public:
-    Character();
+    Character(): hp(10,10), stats(10,10) {
+    }
 
-    virtual ~Character() = default;  // 가상 소멸자
+     ~Character() = default;  // 가상 소멸자
 
     // 순수 가상 함수들
-    virtual void attack() = 0;
-    virtual void specialAbility() = 0;
+    // virtual void attack() = 0;
+    // virtual void specialAbility() = 0;
 
     // 공통 기능들
     void takeDamage(hptype damage) { hp.takeDamage(damage); }
