@@ -67,6 +67,18 @@ build CMakeFiles/clone_rpg.dir/src/character/warrior.cpp.o: CXX_COMPILER__clone_
   OBJECT_DIR = CMakeFiles/clone_rpg.dir
   OBJECT_FILE_DIR = CMakeFiles/clone_rpg.dir/src/character
 
+build CMakeFiles/clone_rpg.dir/src/character/mage.cpp.o: CXX_COMPILER__clone_rpg_unscanned_Debug /Users/iseungmin/CLionProjects/clone_rpg/src/character/mage.cpp || cmake_object_order_depends_target_clone_rpg
+  DEP_FILE = CMakeFiles/clone_rpg.dir/src/character/mage.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/clone_rpg.dir
+  OBJECT_FILE_DIR = CMakeFiles/clone_rpg.dir/src/character
+
+build CMakeFiles/clone_rpg.dir/src/game_manager/gameManager.cpp.o: CXX_COMPILER__clone_rpg_unscanned_Debug /Users/iseungmin/CLionProjects/clone_rpg/src/game$ manager/gameManager.cpp || cmake_object_order_depends_target_clone_rpg
+  DEP_FILE = CMakeFiles/clone_rpg.dir/src/game_manager/gameManager.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/clone_rpg.dir
+  OBJECT_FILE_DIR = CMakeFiles/clone_rpg.dir/src/game_manager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target clone_rpg
@@ -75,7 +87,7 @@ build CMakeFiles/clone_rpg.dir/src/character/warrior.cpp.o: CXX_COMPILER__clone_
 #############################################
 # Link the executable clone_rpg
 
-build clone_rpg: CXX_EXECUTABLE_LINKER__clone_rpg_Debug CMakeFiles/clone_rpg.dir/src/main.cpp.o CMakeFiles/clone_rpg.dir/src/stats/hp.cpp.o CMakeFiles/clone_rpg.dir/src/character/warrior.cpp.o
+build clone_rpg: CXX_EXECUTABLE_LINKER__clone_rpg_Debug CMakeFiles/clone_rpg.dir/src/main.cpp.o CMakeFiles/clone_rpg.dir/src/stats/hp.cpp.o CMakeFiles/clone_rpg.dir/src/character/warrior.cpp.o CMakeFiles/clone_rpg.dir/src/character/mage.cpp.o CMakeFiles/clone_rpg.dir/src/game_manager/gameManager.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk
   OBJECT_DIR = CMakeFiles/clone_rpg.dir
   POST_BUILD = :

@@ -2,7 +2,7 @@
 // Created by 이승민 on 25. 5. 11.
 //
 #pragma once
-#include "hitpointtypes.h"
+#include "HitPointTypes.h"
 class HP {
 public:
     bool setMaxHP(hptype maxHP);

@@ -1,7 +1,7 @@
 //
 // Created by 이승민 on 25. 5. 11.
 //
-#include "./hp.h"
+#include "./HP.h"
 
 bool HP::setMaxHP(hptype newMaxHP) {
     if (newMaxHP <= 0) return false;
