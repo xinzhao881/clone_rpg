@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/clone_rpg.dir/src/character/mage.cpp.o"
+  "CMakeFiles/clone_rpg.dir/src/character/mage.cpp.o.d"
   "CMakeFiles/clone_rpg.dir/src/character/warrior.cpp.o"
   "CMakeFiles/clone_rpg.dir/src/character/warrior.cpp.o.d"
+  "CMakeFiles/clone_rpg.dir/src/game_manager/gameManager.cpp.o"
+  "CMakeFiles/clone_rpg.dir/src/game_manager/gameManager.cpp.o.d"
   "CMakeFiles/clone_rpg.dir/src/main.cpp.o"
   "CMakeFiles/clone_rpg.dir/src/main.cpp.o.d"
   "CMakeFiles/clone_rpg.dir/src/stats/hp.cpp.o"

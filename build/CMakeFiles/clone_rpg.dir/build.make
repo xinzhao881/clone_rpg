@@ -114,11 +114,41 @@ CMakeFiles/clone_rpg.dir/src/character/warrior.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/clone_rpg.dir/src/character/warrior.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/iseungmin/CLionProjects/clone_rpg/src/character/warrior.cpp -o CMakeFiles/clone_rpg.dir/src/character/warrior.cpp.s
 
+CMakeFiles/clone_rpg.dir/src/character/mage.cpp.o: CMakeFiles/clone_rpg.dir/flags.make
+CMakeFiles/clone_rpg.dir/src/character/mage.cpp.o: /Users/iseungmin/CLionProjects/clone_rpg/src/character/mage.cpp
+CMakeFiles/clone_rpg.dir/src/character/mage.cpp.o: CMakeFiles/clone_rpg.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/clone_rpg.dir/src/character/mage.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clone_rpg.dir/src/character/mage.cpp.o -MF CMakeFiles/clone_rpg.dir/src/character/mage.cpp.o.d -o CMakeFiles/clone_rpg.dir/src/character/mage.cpp.o -c /Users/iseungmin/CLionProjects/clone_rpg/src/character/mage.cpp
+
+CMakeFiles/clone_rpg.dir/src/character/mage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/clone_rpg.dir/src/character/mage.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/iseungmin/CLionProjects/clone_rpg/src/character/mage.cpp > CMakeFiles/clone_rpg.dir/src/character/mage.cpp.i
+
+CMakeFiles/clone_rpg.dir/src/character/mage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/clone_rpg.dir/src/character/mage.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/iseungmin/CLionProjects/clone_rpg/src/character/mage.cpp -o CMakeFiles/clone_rpg.dir/src/character/mage.cpp.s
+
+CMakeFiles/clone_rpg.dir/src/game_manager/gameManager.cpp.o: CMakeFiles/clone_rpg.dir/flags.make
+CMakeFiles/clone_rpg.dir/src/game_manager/gameManager.cpp.o: /Users/iseungmin/CLionProjects/clone_rpg/src/game\ manager/gameManager.cpp
+CMakeFiles/clone_rpg.dir/src/game_manager/gameManager.cpp.o: CMakeFiles/clone_rpg.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/clone_rpg.dir/src/game_manager/gameManager.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clone_rpg.dir/src/game_manager/gameManager.cpp.o -MF CMakeFiles/clone_rpg.dir/src/game_manager/gameManager.cpp.o.d -o CMakeFiles/clone_rpg.dir/src/game_manager/gameManager.cpp.o -c "/Users/iseungmin/CLionProjects/clone_rpg/src/game manager/gameManager.cpp"
+
+CMakeFiles/clone_rpg.dir/src/game_manager/gameManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/clone_rpg.dir/src/game_manager/gameManager.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/iseungmin/CLionProjects/clone_rpg/src/game manager/gameManager.cpp" > CMakeFiles/clone_rpg.dir/src/game_manager/gameManager.cpp.i
+
+CMakeFiles/clone_rpg.dir/src/game_manager/gameManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/clone_rpg.dir/src/game_manager/gameManager.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/iseungmin/CLionProjects/clone_rpg/src/game manager/gameManager.cpp" -o CMakeFiles/clone_rpg.dir/src/game_manager/gameManager.cpp.s
+
 # Object files for target clone_rpg
 clone_rpg_OBJECTS = \
 "CMakeFiles/clone_rpg.dir/src/main.cpp.o" \
 "CMakeFiles/clone_rpg.dir/src/stats/hp.cpp.o" \
-"CMakeFiles/clone_rpg.dir/src/character/warrior.cpp.o"
+"CMakeFiles/clone_rpg.dir/src/character/warrior.cpp.o" \
+"CMakeFiles/clone_rpg.dir/src/character/mage.cpp.o" \
+"CMakeFiles/clone_rpg.dir/src/game_manager/gameManager.cpp.o"
 
 # External object files for target clone_rpg
 clone_rpg_EXTERNAL_OBJECTS =
@@ -126,9 +156,11 @@ clone_rpg_EXTERNAL_OBJECTS =
 clone_rpg: CMakeFiles/clone_rpg.dir/src/main.cpp.o
 clone_rpg: CMakeFiles/clone_rpg.dir/src/stats/hp.cpp.o
 clone_rpg: CMakeFiles/clone_rpg.dir/src/character/warrior.cpp.o
+clone_rpg: CMakeFiles/clone_rpg.dir/src/character/mage.cpp.o
+clone_rpg: CMakeFiles/clone_rpg.dir/src/game_manager/gameManager.cpp.o
 clone_rpg: CMakeFiles/clone_rpg.dir/build.make
 clone_rpg: CMakeFiles/clone_rpg.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable clone_rpg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable clone_rpg"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/clone_rpg.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

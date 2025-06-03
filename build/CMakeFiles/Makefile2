@@ -85,12 +85,12 @@ clean: CMakeFiles/clone_rpg.dir/clean
 CMakeFiles/clone_rpg.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles --progress-num=1,2,3,4 "Built target clone_rpg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target clone_rpg"
 .PHONY : CMakeFiles/clone_rpg.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/clone_rpg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/clone_rpg.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles 0
 .PHONY : CMakeFiles/clone_rpg.dir/rule
@@ -102,7 +102,7 @@ clone_rpg: CMakeFiles/clone_rpg.dir/rule
 # codegen rule for target.
 CMakeFiles/clone_rpg.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target clone_rpg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Finished codegen for target clone_rpg"
 .PHONY : CMakeFiles/clone_rpg.dir/codegen
 
 # clean rule for target.

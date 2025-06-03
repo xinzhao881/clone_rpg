@@ -13,6 +13,4 @@ add_executable(clone_rpg src/main.cpp
         src/character/warrior.cpp
         src/character/mage.h
         src/character/mage.cpp
-        "src/game manager/gameManager.h"
-        "src/game manager/gameManager.cpp"
 )

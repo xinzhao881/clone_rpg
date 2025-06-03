@@ -136,6 +136,30 @@ clone_rpg/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/build
 .PHONY : clone_rpg/fast
 
+src/character/mage.o: src/character/mage.cpp.o
+.PHONY : src/character/mage.o
+
+# target to build an object file
+src/character/mage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/character/mage.cpp.o
+.PHONY : src/character/mage.cpp.o
+
+src/character/mage.i: src/character/mage.cpp.i
+.PHONY : src/character/mage.i
+
+# target to preprocess a source file
+src/character/mage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/character/mage.cpp.i
+.PHONY : src/character/mage.cpp.i
+
+src/character/mage.s: src/character/mage.cpp.s
+.PHONY : src/character/mage.s
+
+# target to generate assembly for a file
+src/character/mage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/character/mage.cpp.s
+.PHONY : src/character/mage.cpp.s
+
 src/character/warrior.o: src/character/warrior.cpp.o
 .PHONY : src/character/warrior.o
 
@@ -159,6 +183,30 @@ src/character/warrior.s: src/character/warrior.cpp.s
 src/character/warrior.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/character/warrior.cpp.s
 .PHONY : src/character/warrior.cpp.s
+
+src/game_manager/gameManager.o: src/game_manager/gameManager.cpp.o
+.PHONY : src/game_manager/gameManager.o
+
+# target to build an object file
+src/game_manager/gameManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/game_manager/gameManager.cpp.o
+.PHONY : src/game_manager/gameManager.cpp.o
+
+src/game_manager/gameManager.i: src/game_manager/gameManager.cpp.i
+.PHONY : src/game_manager/gameManager.i
+
+# target to preprocess a source file
+src/game_manager/gameManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/game_manager/gameManager.cpp.i
+.PHONY : src/game_manager/gameManager.cpp.i
+
+src/game_manager/gameManager.s: src/game_manager/gameManager.cpp.s
+.PHONY : src/game_manager/gameManager.s
+
+# target to generate assembly for a file
+src/game_manager/gameManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/game_manager/gameManager.cpp.s
+.PHONY : src/game_manager/gameManager.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -218,9 +266,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... clone_rpg"
+	@echo "... src/character/mage.o"
+	@echo "... src/character/mage.i"
+	@echo "... src/character/mage.s"
 	@echo "... src/character/warrior.o"
 	@echo "... src/character/warrior.i"
 	@echo "... src/character/warrior.s"
+	@echo "... src/game_manager/gameManager.o"
+	@echo "... src/game_manager/gameManager.i"
+	@echo "... src/game_manager/gameManager.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

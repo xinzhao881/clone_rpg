@@ -10,11 +10,10 @@
 
 class Mage : public Character {
 public:
-    Mage(std::string& inputName);
+    Mage(std::string inputName);
     ~Mage() = default;
 private:
     static const statType baseStrength = 10u;
-    static const statType baseIntelligence =10u;
-    std::string name;
+    static const statType baseIntelligence =19u;
 };
 #endif //MAGE_H

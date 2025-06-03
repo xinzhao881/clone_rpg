@@ -9,12 +9,12 @@
 #include "../stats/StatBlock.h"
 
 class Warrior : public Character{
+
 public:
-    Warrior(std::string& inputName);
-    ~Warrior();
-private:
-    static const statType baseStrength = 10u;
-    static const statType baseIntelligence =10u;
-    std::string name;
+    Warrior(std::string inputName);
+    ~Warrior() = default;
+ private:
+     static const statType baseStrength = 19u;
+     static const statType baseIntelligence =10u;
 
 };
