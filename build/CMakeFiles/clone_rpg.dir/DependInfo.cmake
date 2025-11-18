@@ -10,9 +10,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/iseungmin/CLionProjects/clone_rpg/src/character/mage.cpp" "CMakeFiles/clone_rpg.dir/src/character/mage.cpp.o" "gcc" "CMakeFiles/clone_rpg.dir/src/character/mage.cpp.o.d"
   "/Users/iseungmin/CLionProjects/clone_rpg/src/character/warrior.cpp" "CMakeFiles/clone_rpg.dir/src/character/warrior.cpp.o" "gcc" "CMakeFiles/clone_rpg.dir/src/character/warrior.cpp.o.d"
-  "/Users/iseungmin/CLionProjects/clone_rpg/src/game manager/gameManager.cpp" "CMakeFiles/clone_rpg.dir/src/game_manager/gameManager.cpp.o" "gcc" "CMakeFiles/clone_rpg.dir/src/game_manager/gameManager.cpp.o.d"
+  "/Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/GameManager.cpp" "CMakeFiles/clone_rpg.dir/src/gameManager/GameManager.cpp.o" "gcc" "CMakeFiles/clone_rpg.dir/src/gameManager/GameManager.cpp.o.d"
   "/Users/iseungmin/CLionProjects/clone_rpg/src/main.cpp" "CMakeFiles/clone_rpg.dir/src/main.cpp.o" "gcc" "CMakeFiles/clone_rpg.dir/src/main.cpp.o.d"
-  "/Users/iseungmin/CLionProjects/clone_rpg/src/stats/hp.cpp" "CMakeFiles/clone_rpg.dir/src/stats/hp.cpp.o" "gcc" "CMakeFiles/clone_rpg.dir/src/stats/hp.cpp.o.d"
+  "/Users/iseungmin/CLionProjects/clone_rpg/src/stats/Hp.cpp" "CMakeFiles/clone_rpg.dir/src/stats/Hp.cpp.o" "gcc" "CMakeFiles/clone_rpg.dir/src/stats/Hp.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

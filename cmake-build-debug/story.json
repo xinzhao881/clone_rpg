@@ -1,0 +1,33 @@
+{
+  "story": [
+    {
+      "node_number": 1,
+      "description": "당신은 시작의 마을에 위치해 있습니다.\n 어느쪽으로 향하겠습니까?",
+      "choices": [
+        {
+          "text": "상점으로 간다.",
+          "next_node": 2,
+          "function": null
+        },
+        {
+          "text": "마을 밖으로 간다.",
+          "next_node": 3,
+          "function": null
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "node_number": 2,
+      "description": "당신은 상점에 도착했습니",
+      "choices" : null
+    },
+    {
+      "node_number" : 3,
+      "description" : "아무것도 보이지 않습니다.",
+      "choices": null
+    }
+  ]
+}

@@ -2,19 +2,21 @@
 #define CHARACTER_H
 #include <string>
 
-#include "../stats/HP.h"
+#include "../stats/Hp.h"
 #include "../stats/StatBlock.h"
 
 class Character {
 protected:
-    HP hp;
+    Hp hp;
     std::string name;
     StatBlock stats;
 
 public:
     // 순수 가상 소멸자
     virtual ~Character() = default;
-    Character(std::string inputName): name(inputName), hp(10,10), stats(10,10) {};
+    Character(std::string inputName = "john"): name(inputName), hp(10,10), stats(10,10) {};
+
+    std::string getName() const { return name; }
 
 /*
     // 순수 가상 함수들

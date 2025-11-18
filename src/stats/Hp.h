@@ -3,7 +3,7 @@
 //
 #pragma once
 #include "HitPointTypes.h"
-class HP {
+class Hp {
 public:
     bool setMaxHP(hptype maxHP);
     void takeDamage(hptype damage);
@@ -11,7 +11,7 @@ public:
     [[nodiscard]] hptype getMaxHP() const;
     hptype getCurrentHP() const;
 
-    HP(hptype currentHP, hptype maxHP);
+    Hp(hptype currentHP, hptype maxHP);
 private:
     hptype currentHP;
     hptype maxHP;

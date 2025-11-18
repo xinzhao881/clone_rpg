@@ -8,7 +8,7 @@
 //
 Warrior::Warrior(std::string inputName):Character(inputName){
     hptype hpGrowth = 19u;
-    hp = HP(hpGrowth, hpGrowth);
+    hp = Hp(hpGrowth, hpGrowth);
     stats = StatBlock(baseStrength,baseIntelligence);
     std::cout<<"You are Warrior!\n";
 }

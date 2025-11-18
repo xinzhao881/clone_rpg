@@ -184,29 +184,29 @@ src/character/warrior.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/character/warrior.cpp.s
 .PHONY : src/character/warrior.cpp.s
 
-src/game_manager/gameManager.o: src/game_manager/gameManager.cpp.o
-.PHONY : src/game_manager/gameManager.o
+src/gameManager/GameManager.o: src/gameManager/GameManager.cpp.o
+.PHONY : src/gameManager/GameManager.o
 
 # target to build an object file
-src/game_manager/gameManager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/game_manager/gameManager.cpp.o
-.PHONY : src/game_manager/gameManager.cpp.o
+src/gameManager/GameManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/gameManager/GameManager.cpp.o
+.PHONY : src/gameManager/GameManager.cpp.o
 
-src/game_manager/gameManager.i: src/game_manager/gameManager.cpp.i
-.PHONY : src/game_manager/gameManager.i
+src/gameManager/GameManager.i: src/gameManager/GameManager.cpp.i
+.PHONY : src/gameManager/GameManager.i
 
 # target to preprocess a source file
-src/game_manager/gameManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/game_manager/gameManager.cpp.i
-.PHONY : src/game_manager/gameManager.cpp.i
+src/gameManager/GameManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/gameManager/GameManager.cpp.i
+.PHONY : src/gameManager/GameManager.cpp.i
 
-src/game_manager/gameManager.s: src/game_manager/gameManager.cpp.s
-.PHONY : src/game_manager/gameManager.s
+src/gameManager/GameManager.s: src/gameManager/GameManager.cpp.s
+.PHONY : src/gameManager/GameManager.s
 
 # target to generate assembly for a file
-src/game_manager/gameManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/game_manager/gameManager.cpp.s
-.PHONY : src/game_manager/gameManager.cpp.s
+src/gameManager/GameManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/gameManager/GameManager.cpp.s
+.PHONY : src/gameManager/GameManager.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -232,29 +232,29 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/stats/hp.o: src/stats/hp.cpp.o
-.PHONY : src/stats/hp.o
+src/stats/Hp.o: src/stats/Hp.cpp.o
+.PHONY : src/stats/Hp.o
 
 # target to build an object file
-src/stats/hp.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/stats/hp.cpp.o
-.PHONY : src/stats/hp.cpp.o
+src/stats/Hp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/stats/Hp.cpp.o
+.PHONY : src/stats/Hp.cpp.o
 
-src/stats/hp.i: src/stats/hp.cpp.i
-.PHONY : src/stats/hp.i
+src/stats/Hp.i: src/stats/Hp.cpp.i
+.PHONY : src/stats/Hp.i
 
 # target to preprocess a source file
-src/stats/hp.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/stats/hp.cpp.i
-.PHONY : src/stats/hp.cpp.i
+src/stats/Hp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/stats/Hp.cpp.i
+.PHONY : src/stats/Hp.cpp.i
 
-src/stats/hp.s: src/stats/hp.cpp.s
-.PHONY : src/stats/hp.s
+src/stats/Hp.s: src/stats/Hp.cpp.s
+.PHONY : src/stats/Hp.s
 
 # target to generate assembly for a file
-src/stats/hp.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/stats/hp.cpp.s
-.PHONY : src/stats/hp.cpp.s
+src/stats/Hp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/stats/Hp.cpp.s
+.PHONY : src/stats/Hp.cpp.s
 
 # Help Target
 help:
@@ -272,15 +272,15 @@ help:
 	@echo "... src/character/warrior.o"
 	@echo "... src/character/warrior.i"
 	@echo "... src/character/warrior.s"
-	@echo "... src/game_manager/gameManager.o"
-	@echo "... src/game_manager/gameManager.i"
-	@echo "... src/game_manager/gameManager.s"
+	@echo "... src/gameManager/GameManager.o"
+	@echo "... src/gameManager/GameManager.i"
+	@echo "... src/gameManager/GameManager.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/stats/hp.o"
-	@echo "... src/stats/hp.i"
-	@echo "... src/stats/hp.s"
+	@echo "... src/stats/Hp.o"
+	@echo "... src/stats/Hp.i"
+	@echo "... src/stats/Hp.s"
 .PHONY : help
 
 

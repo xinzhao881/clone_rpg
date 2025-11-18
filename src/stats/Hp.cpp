@@ -1,9 +1,9 @@
 //
 // Created by 이승민 on 25. 5. 11.
 //
-#include "./HP.h"
+#include "./Hp.h"
 
-bool HP::setMaxHP(hptype newMaxHP) {
+bool Hp::setMaxHP(hptype newMaxHP) {
     if (newMaxHP <= 0) return false;
     maxHP = newMaxHP;
     // currentHP도 maxHP를 넘어가지 않게 조정
@@ -13,29 +13,29 @@ bool HP::setMaxHP(hptype newMaxHP) {
     return true;
 }
 
-void HP::takeDamage(hptype damage) {
+void Hp::takeDamage(hptype damage) {
     currentHP -= damage;
     if (currentHP <= 0) {
         currentHP = 0;
     }
 }
 
-void HP::heal(hptype heal) {
+void Hp::heal(hptype heal) {
     currentHP += heal;
     if (currentHP  > maxHP) {
         currentHP = maxHP;
     }
 }
 
-hptype HP::getMaxHP() const {
+hptype Hp::getMaxHP() const {
     return this->maxHP;
 }
 
- hptype HP::getCurrentHP() const{
+ hptype Hp::getCurrentHP() const{
     return currentHP;
 }
 
-HP::HP(hptype currentHP, hptype maxHP) {
+Hp::Hp(hptype currentHP, hptype maxHP) {
     this->maxHP = maxHP;
     this->currentHP = (currentHP > maxHP) ? maxHP : currentHP;
 }

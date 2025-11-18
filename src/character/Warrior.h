@@ -3,7 +3,7 @@
 //
 #pragma once
 #include "Character.h"
-#include "../stats/HP.h"
+#include "../stats/Hp.h"
 #include<string>
 
 #include "../stats/StatBlock.h"

@@ -7,9 +7,9 @@
 },
 {
   "directory": "/Users/iseungmin/CLionProjects/clone_rpg/build",
-  "command": "/usr/bin/clang++   -g -std=gnu++20 -arch arm64 -o CMakeFiles/clone_rpg.dir/src/stats/hp.cpp.o -c /Users/iseungmin/CLionProjects/clone_rpg/src/stats/hp.cpp",
-  "file": "/Users/iseungmin/CLionProjects/clone_rpg/src/stats/hp.cpp",
-  "output": "CMakeFiles/clone_rpg.dir/src/stats/hp.cpp.o"
+  "command": "/usr/bin/clang++   -g -std=gnu++20 -arch arm64 -o CMakeFiles/clone_rpg.dir/src/stats/Hp.cpp.o -c /Users/iseungmin/CLionProjects/clone_rpg/src/stats/Hp.cpp",
+  "file": "/Users/iseungmin/CLionProjects/clone_rpg/src/stats/Hp.cpp",
+  "output": "CMakeFiles/clone_rpg.dir/src/stats/Hp.cpp.o"
 },
 {
   "directory": "/Users/iseungmin/CLionProjects/clone_rpg/build",
@@ -25,8 +25,8 @@
 },
 {
   "directory": "/Users/iseungmin/CLionProjects/clone_rpg/build",
-  "command": "/usr/bin/clang++   -g -std=gnu++20 -arch arm64 -o CMakeFiles/clone_rpg.dir/src/game_manager/gameManager.cpp.o -c \"/Users/iseungmin/CLionProjects/clone_rpg/src/game manager/gameManager.cpp\"",
-  "file": "/Users/iseungmin/CLionProjects/clone_rpg/src/game manager/gameManager.cpp",
-  "output": "CMakeFiles/clone_rpg.dir/src/game_manager/gameManager.cpp.o"
+  "command": "/usr/bin/clang++   -g -std=gnu++20 -arch arm64 -o CMakeFiles/clone_rpg.dir/src/gameManager/GameManager.cpp.o -c /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/GameManager.cpp",
+  "file": "/Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/GameManager.cpp",
+  "output": "CMakeFiles/clone_rpg.dir/src/gameManager/GameManager.cpp.o"
 }
 ]
