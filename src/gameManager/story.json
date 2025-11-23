@@ -7,7 +7,7 @@
         {
           "text": "상점으로 간다.",
           "next_node": 2,
-          "function": null
+          "function": "Shop"
         },
         {
           "text": "마을 밖으로 간다.",
@@ -31,6 +31,6 @@
       "description" : "아무것도 보이지 않습니다.",
       "choices": null
     }
-  ],
+  ]
 
 }

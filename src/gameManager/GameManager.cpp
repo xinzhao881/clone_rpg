@@ -109,3 +109,9 @@ void GameManager::handleStoryState() {
 }
 
 void GameManager::handleMenuState(){}
+void GameManager::handleBattleState(){}
+void GameManager::handleShopState() {
+    std::cout << "\n------------------------------------\n";
+
+    std::cout << "------------------------------------\n";
+}
