@@ -17,6 +17,16 @@ add_executable(clone_rpg src/main.cpp
         "src/gameManager/GameManager.cpp"
         src/mob/Mob.h
         src/mob/Goblin.h
+        src/Items/Item.h
+        src/Items/Item.cpp
+        src/Items/ItemFactory.h
+        src/Items/Potion.h
+        src/Items/Weapon.h
+        src/Items/Armor.h
+        src/Items/Armor.cpp
+        src/Items/Accessory.h
+        src/Items/Equipment.h
+        src/Items/Equipment.cpp
 )
 set(RESOURCE_DIR ${CMAKE_SOURCE_DIR}/src/gameManager)
 file(COPY ${RESOURCE_DIR}/story.json DESTINATION ${CMAKE_BINARY_DIR})

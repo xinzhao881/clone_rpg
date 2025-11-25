@@ -1,17 +1,17 @@
 //
 // Created by 이승민 on 25. 11. 23.
 //
-
 #ifndef ITEM_H
 #define ITEM_H
-#include "../character/Character.h"
+#include <string>
 
+class Character;
 
 class Item {
 public:
     Item();
     virtual ~Item();
-    virtual void use(Character& owner) = 0;
+    virtual void use(Character& owner);
 private:
     std::string id;
     std::string name;

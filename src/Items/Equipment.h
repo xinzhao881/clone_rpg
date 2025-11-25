@@ -15,12 +15,10 @@ private:
     Weapon weapon;
 public:
     Equipment();
-    void setHead(const Armor& head) {
-        // The Armor::use method (on the Armor *being equipped*) should handle the equipping
-        // and inventory management. This method in Equipment should ideally just set the head
-        // armor after the inventory swap is handled.
-        // this->head.use(head); // Incorrect call given the new Armor::use implementation.
-        this->head = head; // Assign directly, assuming inventory swap is handled externally.
+    const Armor& getHead() const { return head; }
+    Armor& getHead() { return head; }
+    void setHead(const Armor& newHead) {
+        this->head = newHead;
         //갈아 끼우면 갈아끼운다고 print해줘야되는데
     }
 };

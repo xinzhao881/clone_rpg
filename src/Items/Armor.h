@@ -5,25 +5,21 @@
 #ifndef ARMOR_H
 #define ARMOR_H
 #include "Item.h"
-#include "../character/Character.h"
-#include "../character/Character.h"
-#include "../character/Character.h"
-#include "../character/Character.h"
+
+class Character; // Forward declaration to break circular dependency
 
 class Armor : public Item {
 public:
     int defense;
     Armor();
-    void use(Character& owner) {
-        // Save the currently equipped head armor to inventory
-        Armor old_head_armor = owner.equipment.head;
-        owner.inventory.emplace_back(old_head_armor);
-
-        // Equip *this* new armor
-        owner.equipment.head = *this;
-    };
-    void operator =(Armor& x) {
+    void use(Character& owner); // Declaration only
+    Armor& operator =(const Armor& x) {
+        if (this == &x) {
+            return *this;
+        }
+        Item::operator=(x);
         this->defense = x.defense;
+        return *this;
     }
 
 
