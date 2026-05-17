@@ -1,0 +1,341 @@
+{
+  "story": [
+    {
+      "node_number": 1,
+      "description": "혼란의 시대. 대륙은 수십 개의 국가로 나뉘어 끊임 없이 영토를 놓고 싸운다. 당신이 속한 국가인 사트란 공국은 그 중 하나인 중소 공국, 강대국도, 약소국도 아닌 항상 생존을 위해서 검을 들어야 하는 나라이다. 오늘도 평소와 다르지 않다. 캐드리 평원을 위해서 쳐들어온 크텐드 왕국과의 전투를 앞두고 있다. 당신은 무엇을 할것인가?",
+      "choices": [
+        {
+          "text": "상점으로 간다.",
+          "function": "Shop"
+        },
+        {
+          "text": "주둔지 밖으로 간다.",
+          "next_node": 3,
+          "function": "Move",
+          "encounter" : {
+            "trigger_chance" : 0.3,
+            "mob_count" : {"min" : 1, "max" : 3},
+            "mob_pool": [
+              { "mob_id": 1, "weight": 70},
+              { "mob_id": 2, "weight": 20},
+              { "mob_id": 3, "weight": 10}
+            ]
+          }
+        },
+        {
+          "text": "뒷골목으로 간다",
+          "next_node": null,
+          "function": "Move"
+        },
+        {
+          "text": "대련장으로 간다",
+          "function": "Battle",
+          "Mobs": ["BattleDummy"]
+        }
+      ]
+    },
+    {
+      "node_number": 3,
+      "description": "게이트에서 경비병이 반겨준다. 어이 $NAME 너무 오래 밖에 있다가 오지 말라고? \n 주둔지 밖이다. 무엇을 할까?",
+      "choices": [
+        {
+          "text": "주둔지로 돌아간다.",
+          "next_node": 1,
+          "function": "Move"
+        },
+        {
+          "text": "조금더 살펴본다.(여기서 특정 능력치가 threshold이상이라면 특정 선택지가 해금되도록 수정해야됨)",
+          "next_node": 4,
+          "function": "Move"
+        }
+      ]
+    },
+    {
+      "node_number": 4,
+      "description": "던전 입구에 들어섰습니다.\n축축한 냄새와 함께 어둠이 가득합니다.\n앞쪽으로 갈 것인가, 아니면 좌우를 살펴볼 것인가?",
+      "choices": [
+        {
+          "text": "앞쪽 통로로 진행한다.",
+          "next_node": 6,
+          "function": "Move"
+        },
+        {
+          "text": "왼쪽 통로를 살펴본다.",
+          "next_node": 7,
+          "function": "Move"
+        },
+        {
+          "text": "오른쪽 통로를 살펴본다.",
+          "next_node": 8,
+          "function": "Move"
+        },
+        {
+          "text": "입구로 돌아간다.",
+          "next_node": 3,
+          "function": "Move"
+        }
+      ]
+    },
+    {
+      "node_number": 5,
+      "description": "주변을 탐색하니 낡은 오두막이 보입니다.\n문을 두드려도 대답이 없습니다.",
+      "choices": [
+        {
+          "text": "던전으로 간다.",
+          "next_node": 4,
+          "function": "Move"
+        },
+        {
+          "text": "마을로 돌아간다.",
+          "next_node": 1,
+          "function": "Move"
+        }
+      ]
+    },
+    {
+      "node_number": 6,
+      "description": "앞쪽 통로를 따라가니 넓은 방에 도달했습니다.\n바닥에는 보물 상자가 있습니다!\n갑자기 네 마리의 작은 박쥐가 날아옵니다!",
+      "choices": [
+        {
+          "text": "박쥐들과 싸운다.",
+          "function": "Battle"
+        },
+        {
+          "text": "보물 상자를 열려고 한다.",
+          "next_node": 10,
+          "function": null
+        },
+        {
+          "text": "뒤로 물러난다.",
+          "next_node": 4,
+          "function": "Move"
+        }
+      ]
+    },
+    {
+      "node_number": 7,
+      "description": "왼쪽 통로는 좁고 습합니다.\n앞쪽에서 이상한 소리가 들립니다...\n조심히 나아갈까요?",
+      "choices": [
+        {
+          "text": "계속 나아간다.",
+          "next_node": 11,
+          "function": "Move"
+        },
+        {
+          "text": "입구로 돌아간다.",
+          "next_node": 4,
+          "function": "Move"
+        }
+      ]
+    },
+    {
+      "node_number": 8,
+      "description": "오른쪽 통로는 밝은 빛이 새어나옵니다.\n다가가니 작은 광맥이 있습니다.\n신비로운 빛을 내는 광물들이 있습니다.",
+      "choices": [
+        {
+          "text": "광물을 채집한다.",
+          "next_node": 12,
+          "function": null
+        },
+        {
+          "text": "입구로 돌아간다.",
+          "next_node": 4,
+          "function": "Move"
+        }
+      ]
+    },
+    {
+      "node_number": 9,
+      "description": "박쥐와의 전투!\n크기는 작지만 여러 마리가 한 번에 공격합니다!",
+      "choices": [
+        {
+          "text": "전투 시작",
+          "next_node": 13,
+          "function": "Battle"
+        }
+      ]
+    },
+    {
+      "node_number": 10,
+      "description": "보물 상자를 열려고 하니 박쥐들의 공격이 더 심해집니다!\n싸우거나 물러날 수밖에 없습니다.",
+      "choices": [
+        {
+          "text": "박쥐와 싸운다.",
+          "next_node": 9,
+          "function": "Battle"
+        },
+        {
+          "text": "뒤로 물러난다.",
+          "next_node": 4,
+          "function": "Move"
+        }
+      ]
+    },
+    {
+      "node_number": 11,
+      "description": "좁은 통로를 나아가니 거대한 거미 하나가 나타났습니다!\n웹에 걸린 스켈레톤 전사의 유골이 보입니다.\n싸울 준비가 되었나요?",
+      "choices": [
+        {
+          "text": "거미와 싸운다.",
+          "next_node": 14,
+          "function": "Battle"
+        },
+        {
+          "text": "뒤로 물러난다.",
+          "next_node": 4,
+          "function": "Move"
+        }
+      ]
+    },
+    {
+      "node_number": 12,
+      "description": "신비로운 광물을 채집했습니다.\n가방이 조금 무거워졌습니다.\n더 탐색할까요?",
+      "choices": [
+        {
+          "text": "더 채집한다.",
+          "next_node": 12,
+          "function": null
+        },
+        {
+          "text": "입구로 돌아간다.",
+          "next_node": 4,
+          "function": "Move"
+        },
+        {
+          "text": "다른 통로를 탐색한다.",
+          "next_node": 4,
+          "function": "Move"
+        }
+      ]
+    },
+    {
+      "node_number": 13,
+      "description": "박쥐 4마리와의 전투가 시작되었습니다!\n빠르지만 약한 적들입니다.",
+      "choices": [
+        {
+          "text": "계속",
+          "next_node": 15,
+          "function": "Battle"
+        }
+      ]
+    },
+    {
+      "node_number": 14,
+      "description": "거대한 거미와의 전투가 시작되었습니다!\n강력한 적이지만, 웹이 장애가 될 수 있습니다.",
+      "choices": [
+        {
+          "text": "계속",
+          "next_node": 16,
+          "function": "Battle"
+        }
+      ]
+    },
+    {
+      "node_number": 15,
+      "description": "박쥐들을 격퇴했습니다!\n이제 보물 상자를 열 수 있습니다.\n상자 안에는 금화 50개와 낡은 열쇠가 있습니다.",
+      "choices": [
+        {
+          "text": "아이템을 획득하고 계속 탐색한다.",
+          "next_node": 4,
+          "function": "Move"
+        },
+        {
+          "text": "마을로 돌아간다.",
+          "next_node": 1,
+          "function": "Move"
+        }
+      ]
+    },
+    {
+      "node_number": 16,
+      "description": "거미를 격퇴했습니다!\n스켈레톤 전사의 유골 옆에서 녹슨 검을 발견했습니다.\n이 검은 뭔가 특별해 보입니다.",
+      "choices": [
+        {
+          "text": "검을 획득한다.",
+          "next_node": 17,
+          "function": null
+        },
+        {
+          "text": "마을로 돌아간다.",
+          "next_node": 1,
+          "function": "Move"
+        }
+      ]
+    },
+    {
+      "node_number": 17,
+      "description": "녹슨 검을 획득했습니다.\n이것이 뭔가 중요한 물건인 것 같습니다.\n깊은 던전을 향해 더 진행할까요?",
+      "choices": [
+        {
+          "text": "더 깊은 곳으로 탐험한다.",
+          "next_node": 18,
+          "function": "Move"
+        },
+        {
+          "text": "마을로 돌아가 상인에게 보여준다.",
+          "next_node": 1,
+          "function": "Move"
+        }
+      ]
+    },
+    {
+      "node_number": 18,
+      "description": "더 깊은 던전으로 들어갔습니다.\n앞쪽에서 강한 에너지가 느껴집니다.\n거대한 방이 보입니다...",
+      "choices": [
+        {
+          "text": "방으로 들어간다.",
+          "next_node": 19,
+          "function": "Move"
+        },
+        {
+          "text": "뒤로 물러난다.",
+          "next_node": 4,
+          "function": "Move"
+        }
+      ]
+    },
+    {
+      "node_number": 19,
+      "description": "거대한 방에는 어두운 기운이 가득합니다.\n방의 중앙에 거대한 골렘이 서 있습니다!\n이것이 던전의 보스인 것 같습니다!",
+      "choices": [
+        {
+          "text": "골렘과 싸운다.",
+          "next_node": 20,
+          "function": "Battle"
+        },
+        {
+          "text": "뒤로 물러난다.",
+          "next_node": 18,
+          "function": "Move"
+        }
+      ]
+    },
+    {
+      "node_number": 20,
+      "description": "거대한 골렘과의 최후의 전투!",
+      "choices": [
+        {
+          "text": "전투 시작",
+          "next_node": 21,
+          "function": "Battle"
+        }
+      ]
+    },
+    {
+      "node_number": 21,
+      "description": "당신은 골렘을 격퇴했습니다!\n골렘이 부서지면서 찬란한 보물상자가 드러났습니다.\n이것이 던전의 진정한 보물인 것 같습니다!\n\n스테이지 1을 클리어했습니다!\n더 큰 모험이 당신을 기다리고 있습니다...",
+      "choices": [
+        {
+          "text": "다음 스테이지로 진행한다.",
+          "next_node": null,
+          "function": null
+        },
+        {
+          "text": "마을로 돌아간다.",
+          "next_node": 1,
+          "function": "Move"
+        }
+      ]
+    }
+  ]
+}

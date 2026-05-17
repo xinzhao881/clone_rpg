@@ -21,13 +21,27 @@ add_executable(clone_rpg src/main.cpp
         src/Items/Item.cpp
         src/Items/ItemFactory.h
         src/Items/Potion.h
-        src/Items/Weapon.h
-        src/Items/Armor.h
-        src/Items/Armor.cpp
+        src/Items/Weapon/Weapon.h
+        src/Items/Armor/Armor.h
+        src/Items/Armor/Armor.cpp
         src/Items/Accessory.h
         src/Items/Equipment.h
         src/Items/Equipment.cpp
+        src/character/Character.cpp
+        src/Items/Weapon/Weapon.cpp
+        src/Gold/Gold.h
+        src/Gold/Gold.cpp
+        src/mob/MobFactory.h
+        src/Items/ItemFactory.cpp
+        src/mob/MobFactory.cpp
+        src/skills/Skill.h
+        src/Shop/Shop.h
+        src/Shop/Shop.cpp
+        src/Story/StoryManager.cpp
+        src/Story/StoryManager.h
+        src/Common/GameState.h
 )
-set(RESOURCE_DIR ${CMAKE_SOURCE_DIR}/src/gameManager)
-file(COPY ${RESOURCE_DIR}/story.json DESTINATION ${CMAKE_BINARY_DIR})
+set(RESOURCE_DIR ${CMAKE_SOURCE_DIR}/src)
+file(COPY ${RESOURCE_DIR}/GameManager/story.json DESTINATION ${CMAKE_BINARY_DIR})
+file(COPY ${RESOURCE_DIR}/Items/Items.json DESTINATION ${CMAKE_BINARY_DIR})
 

@@ -142,13 +142,163 @@ CMakeFiles/clone_rpg.dir/src/gameManager/GameManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/clone_rpg.dir/src/gameManager/GameManager.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/GameManager.cpp -o CMakeFiles/clone_rpg.dir/src/gameManager/GameManager.cpp.s
 
+CMakeFiles/clone_rpg.dir/src/Items/Item.cpp.o: CMakeFiles/clone_rpg.dir/flags.make
+CMakeFiles/clone_rpg.dir/src/Items/Item.cpp.o: /Users/iseungmin/CLionProjects/clone_rpg/src/Items/Item.cpp
+CMakeFiles/clone_rpg.dir/src/Items/Item.cpp.o: CMakeFiles/clone_rpg.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/clone_rpg.dir/src/Items/Item.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clone_rpg.dir/src/Items/Item.cpp.o -MF CMakeFiles/clone_rpg.dir/src/Items/Item.cpp.o.d -o CMakeFiles/clone_rpg.dir/src/Items/Item.cpp.o -c /Users/iseungmin/CLionProjects/clone_rpg/src/Items/Item.cpp
+
+CMakeFiles/clone_rpg.dir/src/Items/Item.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/clone_rpg.dir/src/Items/Item.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/iseungmin/CLionProjects/clone_rpg/src/Items/Item.cpp > CMakeFiles/clone_rpg.dir/src/Items/Item.cpp.i
+
+CMakeFiles/clone_rpg.dir/src/Items/Item.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/clone_rpg.dir/src/Items/Item.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/iseungmin/CLionProjects/clone_rpg/src/Items/Item.cpp -o CMakeFiles/clone_rpg.dir/src/Items/Item.cpp.s
+
+CMakeFiles/clone_rpg.dir/src/Items/Armor/Armor.cpp.o: CMakeFiles/clone_rpg.dir/flags.make
+CMakeFiles/clone_rpg.dir/src/Items/Armor/Armor.cpp.o: /Users/iseungmin/CLionProjects/clone_rpg/src/Items/Armor/Armor.cpp
+CMakeFiles/clone_rpg.dir/src/Items/Armor/Armor.cpp.o: CMakeFiles/clone_rpg.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/clone_rpg.dir/src/Items/Armor/Armor.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clone_rpg.dir/src/Items/Armor/Armor.cpp.o -MF CMakeFiles/clone_rpg.dir/src/Items/Armor/Armor.cpp.o.d -o CMakeFiles/clone_rpg.dir/src/Items/Armor/Armor.cpp.o -c /Users/iseungmin/CLionProjects/clone_rpg/src/Items/Armor/Armor.cpp
+
+CMakeFiles/clone_rpg.dir/src/Items/Armor/Armor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/clone_rpg.dir/src/Items/Armor/Armor.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/iseungmin/CLionProjects/clone_rpg/src/Items/Armor/Armor.cpp > CMakeFiles/clone_rpg.dir/src/Items/Armor/Armor.cpp.i
+
+CMakeFiles/clone_rpg.dir/src/Items/Armor/Armor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/clone_rpg.dir/src/Items/Armor/Armor.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/iseungmin/CLionProjects/clone_rpg/src/Items/Armor/Armor.cpp -o CMakeFiles/clone_rpg.dir/src/Items/Armor/Armor.cpp.s
+
+CMakeFiles/clone_rpg.dir/src/Items/Equipment.cpp.o: CMakeFiles/clone_rpg.dir/flags.make
+CMakeFiles/clone_rpg.dir/src/Items/Equipment.cpp.o: /Users/iseungmin/CLionProjects/clone_rpg/src/Items/Equipment.cpp
+CMakeFiles/clone_rpg.dir/src/Items/Equipment.cpp.o: CMakeFiles/clone_rpg.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/clone_rpg.dir/src/Items/Equipment.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clone_rpg.dir/src/Items/Equipment.cpp.o -MF CMakeFiles/clone_rpg.dir/src/Items/Equipment.cpp.o.d -o CMakeFiles/clone_rpg.dir/src/Items/Equipment.cpp.o -c /Users/iseungmin/CLionProjects/clone_rpg/src/Items/Equipment.cpp
+
+CMakeFiles/clone_rpg.dir/src/Items/Equipment.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/clone_rpg.dir/src/Items/Equipment.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/iseungmin/CLionProjects/clone_rpg/src/Items/Equipment.cpp > CMakeFiles/clone_rpg.dir/src/Items/Equipment.cpp.i
+
+CMakeFiles/clone_rpg.dir/src/Items/Equipment.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/clone_rpg.dir/src/Items/Equipment.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/iseungmin/CLionProjects/clone_rpg/src/Items/Equipment.cpp -o CMakeFiles/clone_rpg.dir/src/Items/Equipment.cpp.s
+
+CMakeFiles/clone_rpg.dir/src/character/Character.cpp.o: CMakeFiles/clone_rpg.dir/flags.make
+CMakeFiles/clone_rpg.dir/src/character/Character.cpp.o: /Users/iseungmin/CLionProjects/clone_rpg/src/character/Character.cpp
+CMakeFiles/clone_rpg.dir/src/character/Character.cpp.o: CMakeFiles/clone_rpg.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/clone_rpg.dir/src/character/Character.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clone_rpg.dir/src/character/Character.cpp.o -MF CMakeFiles/clone_rpg.dir/src/character/Character.cpp.o.d -o CMakeFiles/clone_rpg.dir/src/character/Character.cpp.o -c /Users/iseungmin/CLionProjects/clone_rpg/src/character/Character.cpp
+
+CMakeFiles/clone_rpg.dir/src/character/Character.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/clone_rpg.dir/src/character/Character.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/iseungmin/CLionProjects/clone_rpg/src/character/Character.cpp > CMakeFiles/clone_rpg.dir/src/character/Character.cpp.i
+
+CMakeFiles/clone_rpg.dir/src/character/Character.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/clone_rpg.dir/src/character/Character.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/iseungmin/CLionProjects/clone_rpg/src/character/Character.cpp -o CMakeFiles/clone_rpg.dir/src/character/Character.cpp.s
+
+CMakeFiles/clone_rpg.dir/src/Items/Weapon/Weapon.cpp.o: CMakeFiles/clone_rpg.dir/flags.make
+CMakeFiles/clone_rpg.dir/src/Items/Weapon/Weapon.cpp.o: /Users/iseungmin/CLionProjects/clone_rpg/src/Items/Weapon/Weapon.cpp
+CMakeFiles/clone_rpg.dir/src/Items/Weapon/Weapon.cpp.o: CMakeFiles/clone_rpg.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/clone_rpg.dir/src/Items/Weapon/Weapon.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clone_rpg.dir/src/Items/Weapon/Weapon.cpp.o -MF CMakeFiles/clone_rpg.dir/src/Items/Weapon/Weapon.cpp.o.d -o CMakeFiles/clone_rpg.dir/src/Items/Weapon/Weapon.cpp.o -c /Users/iseungmin/CLionProjects/clone_rpg/src/Items/Weapon/Weapon.cpp
+
+CMakeFiles/clone_rpg.dir/src/Items/Weapon/Weapon.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/clone_rpg.dir/src/Items/Weapon/Weapon.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/iseungmin/CLionProjects/clone_rpg/src/Items/Weapon/Weapon.cpp > CMakeFiles/clone_rpg.dir/src/Items/Weapon/Weapon.cpp.i
+
+CMakeFiles/clone_rpg.dir/src/Items/Weapon/Weapon.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/clone_rpg.dir/src/Items/Weapon/Weapon.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/iseungmin/CLionProjects/clone_rpg/src/Items/Weapon/Weapon.cpp -o CMakeFiles/clone_rpg.dir/src/Items/Weapon/Weapon.cpp.s
+
+CMakeFiles/clone_rpg.dir/src/Gold/Gold.cpp.o: CMakeFiles/clone_rpg.dir/flags.make
+CMakeFiles/clone_rpg.dir/src/Gold/Gold.cpp.o: /Users/iseungmin/CLionProjects/clone_rpg/src/Gold/Gold.cpp
+CMakeFiles/clone_rpg.dir/src/Gold/Gold.cpp.o: CMakeFiles/clone_rpg.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/clone_rpg.dir/src/Gold/Gold.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clone_rpg.dir/src/Gold/Gold.cpp.o -MF CMakeFiles/clone_rpg.dir/src/Gold/Gold.cpp.o.d -o CMakeFiles/clone_rpg.dir/src/Gold/Gold.cpp.o -c /Users/iseungmin/CLionProjects/clone_rpg/src/Gold/Gold.cpp
+
+CMakeFiles/clone_rpg.dir/src/Gold/Gold.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/clone_rpg.dir/src/Gold/Gold.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/iseungmin/CLionProjects/clone_rpg/src/Gold/Gold.cpp > CMakeFiles/clone_rpg.dir/src/Gold/Gold.cpp.i
+
+CMakeFiles/clone_rpg.dir/src/Gold/Gold.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/clone_rpg.dir/src/Gold/Gold.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/iseungmin/CLionProjects/clone_rpg/src/Gold/Gold.cpp -o CMakeFiles/clone_rpg.dir/src/Gold/Gold.cpp.s
+
+CMakeFiles/clone_rpg.dir/src/Items/ItemFactory.cpp.o: CMakeFiles/clone_rpg.dir/flags.make
+CMakeFiles/clone_rpg.dir/src/Items/ItemFactory.cpp.o: /Users/iseungmin/CLionProjects/clone_rpg/src/Items/ItemFactory.cpp
+CMakeFiles/clone_rpg.dir/src/Items/ItemFactory.cpp.o: CMakeFiles/clone_rpg.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/clone_rpg.dir/src/Items/ItemFactory.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clone_rpg.dir/src/Items/ItemFactory.cpp.o -MF CMakeFiles/clone_rpg.dir/src/Items/ItemFactory.cpp.o.d -o CMakeFiles/clone_rpg.dir/src/Items/ItemFactory.cpp.o -c /Users/iseungmin/CLionProjects/clone_rpg/src/Items/ItemFactory.cpp
+
+CMakeFiles/clone_rpg.dir/src/Items/ItemFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/clone_rpg.dir/src/Items/ItemFactory.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/iseungmin/CLionProjects/clone_rpg/src/Items/ItemFactory.cpp > CMakeFiles/clone_rpg.dir/src/Items/ItemFactory.cpp.i
+
+CMakeFiles/clone_rpg.dir/src/Items/ItemFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/clone_rpg.dir/src/Items/ItemFactory.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/iseungmin/CLionProjects/clone_rpg/src/Items/ItemFactory.cpp -o CMakeFiles/clone_rpg.dir/src/Items/ItemFactory.cpp.s
+
+CMakeFiles/clone_rpg.dir/src/mob/MobFactory.cpp.o: CMakeFiles/clone_rpg.dir/flags.make
+CMakeFiles/clone_rpg.dir/src/mob/MobFactory.cpp.o: /Users/iseungmin/CLionProjects/clone_rpg/src/mob/MobFactory.cpp
+CMakeFiles/clone_rpg.dir/src/mob/MobFactory.cpp.o: CMakeFiles/clone_rpg.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/clone_rpg.dir/src/mob/MobFactory.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clone_rpg.dir/src/mob/MobFactory.cpp.o -MF CMakeFiles/clone_rpg.dir/src/mob/MobFactory.cpp.o.d -o CMakeFiles/clone_rpg.dir/src/mob/MobFactory.cpp.o -c /Users/iseungmin/CLionProjects/clone_rpg/src/mob/MobFactory.cpp
+
+CMakeFiles/clone_rpg.dir/src/mob/MobFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/clone_rpg.dir/src/mob/MobFactory.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/iseungmin/CLionProjects/clone_rpg/src/mob/MobFactory.cpp > CMakeFiles/clone_rpg.dir/src/mob/MobFactory.cpp.i
+
+CMakeFiles/clone_rpg.dir/src/mob/MobFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/clone_rpg.dir/src/mob/MobFactory.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/iseungmin/CLionProjects/clone_rpg/src/mob/MobFactory.cpp -o CMakeFiles/clone_rpg.dir/src/mob/MobFactory.cpp.s
+
+CMakeFiles/clone_rpg.dir/src/Shop/Shop.cpp.o: CMakeFiles/clone_rpg.dir/flags.make
+CMakeFiles/clone_rpg.dir/src/Shop/Shop.cpp.o: /Users/iseungmin/CLionProjects/clone_rpg/src/Shop/Shop.cpp
+CMakeFiles/clone_rpg.dir/src/Shop/Shop.cpp.o: CMakeFiles/clone_rpg.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/clone_rpg.dir/src/Shop/Shop.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clone_rpg.dir/src/Shop/Shop.cpp.o -MF CMakeFiles/clone_rpg.dir/src/Shop/Shop.cpp.o.d -o CMakeFiles/clone_rpg.dir/src/Shop/Shop.cpp.o -c /Users/iseungmin/CLionProjects/clone_rpg/src/Shop/Shop.cpp
+
+CMakeFiles/clone_rpg.dir/src/Shop/Shop.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/clone_rpg.dir/src/Shop/Shop.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/iseungmin/CLionProjects/clone_rpg/src/Shop/Shop.cpp > CMakeFiles/clone_rpg.dir/src/Shop/Shop.cpp.i
+
+CMakeFiles/clone_rpg.dir/src/Shop/Shop.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/clone_rpg.dir/src/Shop/Shop.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/iseungmin/CLionProjects/clone_rpg/src/Shop/Shop.cpp -o CMakeFiles/clone_rpg.dir/src/Shop/Shop.cpp.s
+
+CMakeFiles/clone_rpg.dir/src/Story/StoryManager.cpp.o: CMakeFiles/clone_rpg.dir/flags.make
+CMakeFiles/clone_rpg.dir/src/Story/StoryManager.cpp.o: /Users/iseungmin/CLionProjects/clone_rpg/src/Story/StoryManager.cpp
+CMakeFiles/clone_rpg.dir/src/Story/StoryManager.cpp.o: CMakeFiles/clone_rpg.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/clone_rpg.dir/src/Story/StoryManager.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clone_rpg.dir/src/Story/StoryManager.cpp.o -MF CMakeFiles/clone_rpg.dir/src/Story/StoryManager.cpp.o.d -o CMakeFiles/clone_rpg.dir/src/Story/StoryManager.cpp.o -c /Users/iseungmin/CLionProjects/clone_rpg/src/Story/StoryManager.cpp
+
+CMakeFiles/clone_rpg.dir/src/Story/StoryManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/clone_rpg.dir/src/Story/StoryManager.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/iseungmin/CLionProjects/clone_rpg/src/Story/StoryManager.cpp > CMakeFiles/clone_rpg.dir/src/Story/StoryManager.cpp.i
+
+CMakeFiles/clone_rpg.dir/src/Story/StoryManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/clone_rpg.dir/src/Story/StoryManager.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/iseungmin/CLionProjects/clone_rpg/src/Story/StoryManager.cpp -o CMakeFiles/clone_rpg.dir/src/Story/StoryManager.cpp.s
+
 # Object files for target clone_rpg
 clone_rpg_OBJECTS = \
 "CMakeFiles/clone_rpg.dir/src/main.cpp.o" \
 "CMakeFiles/clone_rpg.dir/src/stats/Hp.cpp.o" \
 "CMakeFiles/clone_rpg.dir/src/character/warrior.cpp.o" \
 "CMakeFiles/clone_rpg.dir/src/character/mage.cpp.o" \
-"CMakeFiles/clone_rpg.dir/src/gameManager/GameManager.cpp.o"
+"CMakeFiles/clone_rpg.dir/src/gameManager/GameManager.cpp.o" \
+"CMakeFiles/clone_rpg.dir/src/Items/Item.cpp.o" \
+"CMakeFiles/clone_rpg.dir/src/Items/Armor/Armor.cpp.o" \
+"CMakeFiles/clone_rpg.dir/src/Items/Equipment.cpp.o" \
+"CMakeFiles/clone_rpg.dir/src/character/Character.cpp.o" \
+"CMakeFiles/clone_rpg.dir/src/Items/Weapon/Weapon.cpp.o" \
+"CMakeFiles/clone_rpg.dir/src/Gold/Gold.cpp.o" \
+"CMakeFiles/clone_rpg.dir/src/Items/ItemFactory.cpp.o" \
+"CMakeFiles/clone_rpg.dir/src/mob/MobFactory.cpp.o" \
+"CMakeFiles/clone_rpg.dir/src/Shop/Shop.cpp.o" \
+"CMakeFiles/clone_rpg.dir/src/Story/StoryManager.cpp.o"
 
 # External object files for target clone_rpg
 clone_rpg_EXTERNAL_OBJECTS =
@@ -158,9 +308,19 @@ clone_rpg: CMakeFiles/clone_rpg.dir/src/stats/Hp.cpp.o
 clone_rpg: CMakeFiles/clone_rpg.dir/src/character/warrior.cpp.o
 clone_rpg: CMakeFiles/clone_rpg.dir/src/character/mage.cpp.o
 clone_rpg: CMakeFiles/clone_rpg.dir/src/gameManager/GameManager.cpp.o
+clone_rpg: CMakeFiles/clone_rpg.dir/src/Items/Item.cpp.o
+clone_rpg: CMakeFiles/clone_rpg.dir/src/Items/Armor/Armor.cpp.o
+clone_rpg: CMakeFiles/clone_rpg.dir/src/Items/Equipment.cpp.o
+clone_rpg: CMakeFiles/clone_rpg.dir/src/character/Character.cpp.o
+clone_rpg: CMakeFiles/clone_rpg.dir/src/Items/Weapon/Weapon.cpp.o
+clone_rpg: CMakeFiles/clone_rpg.dir/src/Gold/Gold.cpp.o
+clone_rpg: CMakeFiles/clone_rpg.dir/src/Items/ItemFactory.cpp.o
+clone_rpg: CMakeFiles/clone_rpg.dir/src/mob/MobFactory.cpp.o
+clone_rpg: CMakeFiles/clone_rpg.dir/src/Shop/Shop.cpp.o
+clone_rpg: CMakeFiles/clone_rpg.dir/src/Story/StoryManager.cpp.o
 clone_rpg: CMakeFiles/clone_rpg.dir/build.make
 clone_rpg: CMakeFiles/clone_rpg.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable clone_rpg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable clone_rpg"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/clone_rpg.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

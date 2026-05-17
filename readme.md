@@ -22,6 +22,5 @@ Reference from (https://www.youtube.com/@CodeTechandTutorials)
    -전투 시스템\
    -아이템 시스템\
    -스토리 진행 방식\
-   -디자인 패넡 뭘 적용해야되는지 모르겠네\
-   -shared_ptr, 모던 c++ 관련 개념
-   \-처음에 이름 받고 1,2,3중에 선택해서 직업 선택- > 
+   -shared_ptr, 모던 c++ 관련 개념\
+   -처음에 이름 받고 1,2,3중에 선택해서 직업 선택- > 

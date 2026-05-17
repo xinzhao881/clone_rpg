@@ -136,6 +136,222 @@ clone_rpg/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/build
 .PHONY : clone_rpg/fast
 
+src/Gold/Gold.o: src/Gold/Gold.cpp.o
+.PHONY : src/Gold/Gold.o
+
+# target to build an object file
+src/Gold/Gold.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/Gold/Gold.cpp.o
+.PHONY : src/Gold/Gold.cpp.o
+
+src/Gold/Gold.i: src/Gold/Gold.cpp.i
+.PHONY : src/Gold/Gold.i
+
+# target to preprocess a source file
+src/Gold/Gold.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/Gold/Gold.cpp.i
+.PHONY : src/Gold/Gold.cpp.i
+
+src/Gold/Gold.s: src/Gold/Gold.cpp.s
+.PHONY : src/Gold/Gold.s
+
+# target to generate assembly for a file
+src/Gold/Gold.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/Gold/Gold.cpp.s
+.PHONY : src/Gold/Gold.cpp.s
+
+src/Items/Armor/Armor.o: src/Items/Armor/Armor.cpp.o
+.PHONY : src/Items/Armor/Armor.o
+
+# target to build an object file
+src/Items/Armor/Armor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/Items/Armor/Armor.cpp.o
+.PHONY : src/Items/Armor/Armor.cpp.o
+
+src/Items/Armor/Armor.i: src/Items/Armor/Armor.cpp.i
+.PHONY : src/Items/Armor/Armor.i
+
+# target to preprocess a source file
+src/Items/Armor/Armor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/Items/Armor/Armor.cpp.i
+.PHONY : src/Items/Armor/Armor.cpp.i
+
+src/Items/Armor/Armor.s: src/Items/Armor/Armor.cpp.s
+.PHONY : src/Items/Armor/Armor.s
+
+# target to generate assembly for a file
+src/Items/Armor/Armor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/Items/Armor/Armor.cpp.s
+.PHONY : src/Items/Armor/Armor.cpp.s
+
+src/Items/Equipment.o: src/Items/Equipment.cpp.o
+.PHONY : src/Items/Equipment.o
+
+# target to build an object file
+src/Items/Equipment.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/Items/Equipment.cpp.o
+.PHONY : src/Items/Equipment.cpp.o
+
+src/Items/Equipment.i: src/Items/Equipment.cpp.i
+.PHONY : src/Items/Equipment.i
+
+# target to preprocess a source file
+src/Items/Equipment.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/Items/Equipment.cpp.i
+.PHONY : src/Items/Equipment.cpp.i
+
+src/Items/Equipment.s: src/Items/Equipment.cpp.s
+.PHONY : src/Items/Equipment.s
+
+# target to generate assembly for a file
+src/Items/Equipment.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/Items/Equipment.cpp.s
+.PHONY : src/Items/Equipment.cpp.s
+
+src/Items/Item.o: src/Items/Item.cpp.o
+.PHONY : src/Items/Item.o
+
+# target to build an object file
+src/Items/Item.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/Items/Item.cpp.o
+.PHONY : src/Items/Item.cpp.o
+
+src/Items/Item.i: src/Items/Item.cpp.i
+.PHONY : src/Items/Item.i
+
+# target to preprocess a source file
+src/Items/Item.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/Items/Item.cpp.i
+.PHONY : src/Items/Item.cpp.i
+
+src/Items/Item.s: src/Items/Item.cpp.s
+.PHONY : src/Items/Item.s
+
+# target to generate assembly for a file
+src/Items/Item.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/Items/Item.cpp.s
+.PHONY : src/Items/Item.cpp.s
+
+src/Items/ItemFactory.o: src/Items/ItemFactory.cpp.o
+.PHONY : src/Items/ItemFactory.o
+
+# target to build an object file
+src/Items/ItemFactory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/Items/ItemFactory.cpp.o
+.PHONY : src/Items/ItemFactory.cpp.o
+
+src/Items/ItemFactory.i: src/Items/ItemFactory.cpp.i
+.PHONY : src/Items/ItemFactory.i
+
+# target to preprocess a source file
+src/Items/ItemFactory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/Items/ItemFactory.cpp.i
+.PHONY : src/Items/ItemFactory.cpp.i
+
+src/Items/ItemFactory.s: src/Items/ItemFactory.cpp.s
+.PHONY : src/Items/ItemFactory.s
+
+# target to generate assembly for a file
+src/Items/ItemFactory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/Items/ItemFactory.cpp.s
+.PHONY : src/Items/ItemFactory.cpp.s
+
+src/Items/Weapon/Weapon.o: src/Items/Weapon/Weapon.cpp.o
+.PHONY : src/Items/Weapon/Weapon.o
+
+# target to build an object file
+src/Items/Weapon/Weapon.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/Items/Weapon/Weapon.cpp.o
+.PHONY : src/Items/Weapon/Weapon.cpp.o
+
+src/Items/Weapon/Weapon.i: src/Items/Weapon/Weapon.cpp.i
+.PHONY : src/Items/Weapon/Weapon.i
+
+# target to preprocess a source file
+src/Items/Weapon/Weapon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/Items/Weapon/Weapon.cpp.i
+.PHONY : src/Items/Weapon/Weapon.cpp.i
+
+src/Items/Weapon/Weapon.s: src/Items/Weapon/Weapon.cpp.s
+.PHONY : src/Items/Weapon/Weapon.s
+
+# target to generate assembly for a file
+src/Items/Weapon/Weapon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/Items/Weapon/Weapon.cpp.s
+.PHONY : src/Items/Weapon/Weapon.cpp.s
+
+src/Shop/Shop.o: src/Shop/Shop.cpp.o
+.PHONY : src/Shop/Shop.o
+
+# target to build an object file
+src/Shop/Shop.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/Shop/Shop.cpp.o
+.PHONY : src/Shop/Shop.cpp.o
+
+src/Shop/Shop.i: src/Shop/Shop.cpp.i
+.PHONY : src/Shop/Shop.i
+
+# target to preprocess a source file
+src/Shop/Shop.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/Shop/Shop.cpp.i
+.PHONY : src/Shop/Shop.cpp.i
+
+src/Shop/Shop.s: src/Shop/Shop.cpp.s
+.PHONY : src/Shop/Shop.s
+
+# target to generate assembly for a file
+src/Shop/Shop.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/Shop/Shop.cpp.s
+.PHONY : src/Shop/Shop.cpp.s
+
+src/Story/StoryManager.o: src/Story/StoryManager.cpp.o
+.PHONY : src/Story/StoryManager.o
+
+# target to build an object file
+src/Story/StoryManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/Story/StoryManager.cpp.o
+.PHONY : src/Story/StoryManager.cpp.o
+
+src/Story/StoryManager.i: src/Story/StoryManager.cpp.i
+.PHONY : src/Story/StoryManager.i
+
+# target to preprocess a source file
+src/Story/StoryManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/Story/StoryManager.cpp.i
+.PHONY : src/Story/StoryManager.cpp.i
+
+src/Story/StoryManager.s: src/Story/StoryManager.cpp.s
+.PHONY : src/Story/StoryManager.s
+
+# target to generate assembly for a file
+src/Story/StoryManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/Story/StoryManager.cpp.s
+.PHONY : src/Story/StoryManager.cpp.s
+
+src/character/Character.o: src/character/Character.cpp.o
+.PHONY : src/character/Character.o
+
+# target to build an object file
+src/character/Character.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/character/Character.cpp.o
+.PHONY : src/character/Character.cpp.o
+
+src/character/Character.i: src/character/Character.cpp.i
+.PHONY : src/character/Character.i
+
+# target to preprocess a source file
+src/character/Character.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/character/Character.cpp.i
+.PHONY : src/character/Character.cpp.i
+
+src/character/Character.s: src/character/Character.cpp.s
+.PHONY : src/character/Character.s
+
+# target to generate assembly for a file
+src/character/Character.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/character/Character.cpp.s
+.PHONY : src/character/Character.cpp.s
+
 src/character/mage.o: src/character/mage.cpp.o
 .PHONY : src/character/mage.o
 
@@ -232,6 +448,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/mob/MobFactory.o: src/mob/MobFactory.cpp.o
+.PHONY : src/mob/MobFactory.o
+
+# target to build an object file
+src/mob/MobFactory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/mob/MobFactory.cpp.o
+.PHONY : src/mob/MobFactory.cpp.o
+
+src/mob/MobFactory.i: src/mob/MobFactory.cpp.i
+.PHONY : src/mob/MobFactory.i
+
+# target to preprocess a source file
+src/mob/MobFactory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/mob/MobFactory.cpp.i
+.PHONY : src/mob/MobFactory.cpp.i
+
+src/mob/MobFactory.s: src/mob/MobFactory.cpp.s
+.PHONY : src/mob/MobFactory.s
+
+# target to generate assembly for a file
+src/mob/MobFactory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/mob/MobFactory.cpp.s
+.PHONY : src/mob/MobFactory.cpp.s
+
 src/stats/Hp.o: src/stats/Hp.cpp.o
 .PHONY : src/stats/Hp.o
 
@@ -266,6 +506,33 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... clone_rpg"
+	@echo "... src/Gold/Gold.o"
+	@echo "... src/Gold/Gold.i"
+	@echo "... src/Gold/Gold.s"
+	@echo "... src/Items/Armor/Armor.o"
+	@echo "... src/Items/Armor/Armor.i"
+	@echo "... src/Items/Armor/Armor.s"
+	@echo "... src/Items/Equipment.o"
+	@echo "... src/Items/Equipment.i"
+	@echo "... src/Items/Equipment.s"
+	@echo "... src/Items/Item.o"
+	@echo "... src/Items/Item.i"
+	@echo "... src/Items/Item.s"
+	@echo "... src/Items/ItemFactory.o"
+	@echo "... src/Items/ItemFactory.i"
+	@echo "... src/Items/ItemFactory.s"
+	@echo "... src/Items/Weapon/Weapon.o"
+	@echo "... src/Items/Weapon/Weapon.i"
+	@echo "... src/Items/Weapon/Weapon.s"
+	@echo "... src/Shop/Shop.o"
+	@echo "... src/Shop/Shop.i"
+	@echo "... src/Shop/Shop.s"
+	@echo "... src/Story/StoryManager.o"
+	@echo "... src/Story/StoryManager.i"
+	@echo "... src/Story/StoryManager.s"
+	@echo "... src/character/Character.o"
+	@echo "... src/character/Character.i"
+	@echo "... src/character/Character.s"
 	@echo "... src/character/mage.o"
 	@echo "... src/character/mage.i"
 	@echo "... src/character/mage.s"
@@ -278,6 +545,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/mob/MobFactory.o"
+	@echo "... src/mob/MobFactory.i"
+	@echo "... src/mob/MobFactory.s"
 	@echo "... src/stats/Hp.o"
 	@echo "... src/stats/Hp.i"
 	@echo "... src/stats/Hp.s"

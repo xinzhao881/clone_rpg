@@ -1,0 +1,92 @@
+[
+{
+  "directory": "/Users/iseungmin/CLionProjects/clone_rpg/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=gnu++20 -arch arm64 -fcolor-diagnostics -o CMakeFiles/clone_rpg.dir/src/main.cpp.o -c /Users/iseungmin/CLionProjects/clone_rpg/src/main.cpp",
+  "file": "/Users/iseungmin/CLionProjects/clone_rpg/src/main.cpp",
+  "output": "/Users/iseungmin/CLionProjects/clone_rpg/cmake-build-debug/CMakeFiles/clone_rpg.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/iseungmin/CLionProjects/clone_rpg/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=gnu++20 -arch arm64 -fcolor-diagnostics -o CMakeFiles/clone_rpg.dir/src/stats/Hp.cpp.o -c /Users/iseungmin/CLionProjects/clone_rpg/src/stats/Hp.cpp",
+  "file": "/Users/iseungmin/CLionProjects/clone_rpg/src/stats/Hp.cpp",
+  "output": "/Users/iseungmin/CLionProjects/clone_rpg/cmake-build-debug/CMakeFiles/clone_rpg.dir/src/stats/Hp.cpp.o"
+},
+{
+  "directory": "/Users/iseungmin/CLionProjects/clone_rpg/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=gnu++20 -arch arm64 -fcolor-diagnostics -o CMakeFiles/clone_rpg.dir/src/character/warrior.cpp.o -c /Users/iseungmin/CLionProjects/clone_rpg/src/character/warrior.cpp",
+  "file": "/Users/iseungmin/CLionProjects/clone_rpg/src/character/warrior.cpp",
+  "output": "/Users/iseungmin/CLionProjects/clone_rpg/cmake-build-debug/CMakeFiles/clone_rpg.dir/src/character/warrior.cpp.o"
+},
+{
+  "directory": "/Users/iseungmin/CLionProjects/clone_rpg/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=gnu++20 -arch arm64 -fcolor-diagnostics -o CMakeFiles/clone_rpg.dir/src/character/mage.cpp.o -c /Users/iseungmin/CLionProjects/clone_rpg/src/character/mage.cpp",
+  "file": "/Users/iseungmin/CLionProjects/clone_rpg/src/character/mage.cpp",
+  "output": "/Users/iseungmin/CLionProjects/clone_rpg/cmake-build-debug/CMakeFiles/clone_rpg.dir/src/character/mage.cpp.o"
+},
+{
+  "directory": "/Users/iseungmin/CLionProjects/clone_rpg/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=gnu++20 -arch arm64 -fcolor-diagnostics -o CMakeFiles/clone_rpg.dir/src/gameManager/GameManager.cpp.o -c /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/GameManager.cpp",
+  "file": "/Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/GameManager.cpp",
+  "output": "/Users/iseungmin/CLionProjects/clone_rpg/cmake-build-debug/CMakeFiles/clone_rpg.dir/src/gameManager/GameManager.cpp.o"
+},
+{
+  "directory": "/Users/iseungmin/CLionProjects/clone_rpg/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=gnu++20 -arch arm64 -fcolor-diagnostics -o CMakeFiles/clone_rpg.dir/src/Items/Item.cpp.o -c /Users/iseungmin/CLionProjects/clone_rpg/src/Items/Item.cpp",
+  "file": "/Users/iseungmin/CLionProjects/clone_rpg/src/Items/Item.cpp",
+  "output": "/Users/iseungmin/CLionProjects/clone_rpg/cmake-build-debug/CMakeFiles/clone_rpg.dir/src/Items/Item.cpp.o"
+},
+{
+  "directory": "/Users/iseungmin/CLionProjects/clone_rpg/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=gnu++20 -arch arm64 -fcolor-diagnostics -o CMakeFiles/clone_rpg.dir/src/Items/Armor/Armor.cpp.o -c /Users/iseungmin/CLionProjects/clone_rpg/src/Items/Armor/Armor.cpp",
+  "file": "/Users/iseungmin/CLionProjects/clone_rpg/src/Items/Armor/Armor.cpp",
+  "output": "/Users/iseungmin/CLionProjects/clone_rpg/cmake-build-debug/CMakeFiles/clone_rpg.dir/src/Items/Armor/Armor.cpp.o"
+},
+{
+  "directory": "/Users/iseungmin/CLionProjects/clone_rpg/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=gnu++20 -arch arm64 -fcolor-diagnostics -o CMakeFiles/clone_rpg.dir/src/Items/Equipment.cpp.o -c /Users/iseungmin/CLionProjects/clone_rpg/src/Items/Equipment.cpp",
+  "file": "/Users/iseungmin/CLionProjects/clone_rpg/src/Items/Equipment.cpp",
+  "output": "/Users/iseungmin/CLionProjects/clone_rpg/cmake-build-debug/CMakeFiles/clone_rpg.dir/src/Items/Equipment.cpp.o"
+},
+{
+  "directory": "/Users/iseungmin/CLionProjects/clone_rpg/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=gnu++20 -arch arm64 -fcolor-diagnostics -o CMakeFiles/clone_rpg.dir/src/character/Character.cpp.o -c /Users/iseungmin/CLionProjects/clone_rpg/src/character/Character.cpp",
+  "file": "/Users/iseungmin/CLionProjects/clone_rpg/src/character/Character.cpp",
+  "output": "/Users/iseungmin/CLionProjects/clone_rpg/cmake-build-debug/CMakeFiles/clone_rpg.dir/src/character/Character.cpp.o"
+},
+{
+  "directory": "/Users/iseungmin/CLionProjects/clone_rpg/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=gnu++20 -arch arm64 -fcolor-diagnostics -o CMakeFiles/clone_rpg.dir/src/Items/Weapon/Weapon.cpp.o -c /Users/iseungmin/CLionProjects/clone_rpg/src/Items/Weapon/Weapon.cpp",
+  "file": "/Users/iseungmin/CLionProjects/clone_rpg/src/Items/Weapon/Weapon.cpp",
+  "output": "/Users/iseungmin/CLionProjects/clone_rpg/cmake-build-debug/CMakeFiles/clone_rpg.dir/src/Items/Weapon/Weapon.cpp.o"
+},
+{
+  "directory": "/Users/iseungmin/CLionProjects/clone_rpg/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=gnu++20 -arch arm64 -fcolor-diagnostics -o CMakeFiles/clone_rpg.dir/src/Gold/Gold.cpp.o -c /Users/iseungmin/CLionProjects/clone_rpg/src/Gold/Gold.cpp",
+  "file": "/Users/iseungmin/CLionProjects/clone_rpg/src/Gold/Gold.cpp",
+  "output": "/Users/iseungmin/CLionProjects/clone_rpg/cmake-build-debug/CMakeFiles/clone_rpg.dir/src/Gold/Gold.cpp.o"
+},
+{
+  "directory": "/Users/iseungmin/CLionProjects/clone_rpg/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=gnu++20 -arch arm64 -fcolor-diagnostics -o CMakeFiles/clone_rpg.dir/src/Items/ItemFactory.cpp.o -c /Users/iseungmin/CLionProjects/clone_rpg/src/Items/ItemFactory.cpp",
+  "file": "/Users/iseungmin/CLionProjects/clone_rpg/src/Items/ItemFactory.cpp",
+  "output": "/Users/iseungmin/CLionProjects/clone_rpg/cmake-build-debug/CMakeFiles/clone_rpg.dir/src/Items/ItemFactory.cpp.o"
+},
+{
+  "directory": "/Users/iseungmin/CLionProjects/clone_rpg/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=gnu++20 -arch arm64 -fcolor-diagnostics -o CMakeFiles/clone_rpg.dir/src/mob/MobFactory.cpp.o -c /Users/iseungmin/CLionProjects/clone_rpg/src/mob/MobFactory.cpp",
+  "file": "/Users/iseungmin/CLionProjects/clone_rpg/src/mob/MobFactory.cpp",
+  "output": "/Users/iseungmin/CLionProjects/clone_rpg/cmake-build-debug/CMakeFiles/clone_rpg.dir/src/mob/MobFactory.cpp.o"
+},
+{
+  "directory": "/Users/iseungmin/CLionProjects/clone_rpg/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=gnu++20 -arch arm64 -fcolor-diagnostics -o CMakeFiles/clone_rpg.dir/src/Shop/Shop.cpp.o -c /Users/iseungmin/CLionProjects/clone_rpg/src/Shop/Shop.cpp",
+  "file": "/Users/iseungmin/CLionProjects/clone_rpg/src/Shop/Shop.cpp",
+  "output": "/Users/iseungmin/CLionProjects/clone_rpg/cmake-build-debug/CMakeFiles/clone_rpg.dir/src/Shop/Shop.cpp.o"
+},
+{
+  "directory": "/Users/iseungmin/CLionProjects/clone_rpg/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=gnu++20 -arch arm64 -fcolor-diagnostics -o CMakeFiles/clone_rpg.dir/src/Story/StoryManager.cpp.o -c /Users/iseungmin/CLionProjects/clone_rpg/src/Story/StoryManager.cpp",
+  "file": "/Users/iseungmin/CLionProjects/clone_rpg/src/Story/StoryManager.cpp",
+  "output": "/Users/iseungmin/CLionProjects/clone_rpg/cmake-build-debug/CMakeFiles/clone_rpg.dir/src/Story/StoryManager.cpp.o"
+}
+]

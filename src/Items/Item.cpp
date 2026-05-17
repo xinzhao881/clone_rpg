@@ -1,13 +1,14 @@
 #include "Item.h"
-
-Item::Item() : id(""), name(""), description("") {
-    // Default constructor
-}
-
-Item::~Item() {
-    // Virtual destructor
-}
+#include "../character/Character.h"
 
 void Item::use(Character& owner) {
     // Base implementation, does nothing or can be made pure virtual
+}
+
+const std::string& Item::getName() const {
+    return name;
+}
+
+int Item::getPrice() const {
+    return price;
 }

@@ -3,7 +3,7 @@
 #include "character/Character.h"
 #include "character/Mage.h"
 #include "character/Warrior.h"
-#include "gameManager/GameManager.h"
+#include "GameManager/GameManager.h"
 
 
 #include <iostream>
@@ -11,7 +11,7 @@
 #include "character/Character.h"
 #include "character/Mage.h"
 #include "character/Warrior.h"
-#include "gameManager/GameManager.h"
+#include "GameManager/GameManager.h"
 
 int main() {
     std::string name;
@@ -41,7 +41,7 @@ int main() {
 
     std::cout << "Welcome " << myCharacter->getName() << std::endl; // Assumes a getName() method
 
-    auto gameManager = std::make_shared<GameManager>();
+    auto gameManager = std::make_shared<GameManager>(myCharacter);
     gameManager->run();
 
     return 0;

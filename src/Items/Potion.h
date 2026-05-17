@@ -8,9 +8,10 @@
 
 class Potion : public Item {
 public:
-    int hp_to_restore;
-    void use(Character& owner)override {
-        owner.hp.heal(hp_to_restore);
-    }
+    Potion(std::string _id, std::string _name, std::string _description, int _price,
+           int _hpToRestore) : Item(_id, _name, _description, _price), hpToRestore(_hpToRestore) {};
+    bool isStackable() override{return true;};
+private:
+    int hpToRestore;
 };
 #endif //POTION_H

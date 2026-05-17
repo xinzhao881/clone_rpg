@@ -1,8 +1,23 @@
-# ninja log v6
-1048	1135	1758107956392302794	clone_rpg	753472b2eb84a1c6
-23	543	1758107955367245118	CMakeFiles/clone_rpg.dir/src/character/mage.cpp.o	4e3c2df09e31646e
-22	544	1758107955367151828	CMakeFiles/clone_rpg.dir/src/character/warrior.cpp.o	77dab11c8a7623c1
-22	814	1758107955366762417	CMakeFiles/clone_rpg.dir/src/main.cpp.o	c509ccd824c7d5ce
-2	56	1763357340752311499	build.ninja	2fb8cc676dfae73d
-23	1048	1758107955367376241	CMakeFiles/clone_rpg.dir/src/gameManager/GameManager.cpp.o	cb7b70dd772f231c
-22	152	1758107955367033455	CMakeFiles/clone_rpg.dir/src/stats/Hp.cpp.o	624ca17345fb9c0c
+# ninja log v7
+30	279	1775306963245812705	CMakeFiles/clone_rpg.dir/src/stats/Hp.cpp.o	f0175256761a3f71
+8	533	1775429189114922256	CMakeFiles/clone_rpg.dir/src/Items/Armor/Armor.cpp.o	f10c6f6c0ab6e4ed
+8	532	1775429189115304004	CMakeFiles/clone_rpg.dir/src/Items/Equipment.cpp.o	6c78754c189a44f7
+5	46	1775428165430328872	CMakeFiles/clone_rpg.dir/src/Gold/Gold.cpp.o	11fc40833b3dc11b
+8	634	1775429189114786007	CMakeFiles/clone_rpg.dir/src/Items/Item.cpp.o	4bac10847762b1d0
+7	728	1775429189114199885	CMakeFiles/clone_rpg.dir/src/character/mage.cpp.o	a2df50dc097d6611
+7	748	1775429189113743054	CMakeFiles/clone_rpg.dir/src/character/warrior.cpp.o	da8579b5aa51f33a
+9	743	1775429189116189167	CMakeFiles/clone_rpg.dir/src/character/Character.cpp.o	345f038a6008d554
+532	815	1775429189639373891	CMakeFiles/clone_rpg.dir/src/Items/Weapon/Weapon.cpp.o	675cb34199a8e327
+6	1064	1775429189113114182	CMakeFiles/clone_rpg.dir/src/main.cpp.o	32f472f7e86e5151
+687	1364	1775306963903210568	CMakeFiles/clone_rpg.dir/src/mob/MobFactory.cpp.o	d2c281990a12fd64
+533	1308	1775429189640082012	CMakeFiles/clone_rpg.dir/src/Items/ItemFactory.cpp.o	c2664cceaa8daafe
+6	902	1775430468617776196	CMakeFiles/clone_rpg.dir/src/Shop/Shop.cpp.o	570427405f662a2f
+6	1039	1775429595782675908	CMakeFiles/clone_rpg.dir/src/gameManager/GameManager.cpp.o	e033e4613f8dbf90
+902	994	1775430469514563872	clone_rpg	4cf0ceee5745d7b3
+15	763	1777385836835412787	CMakeFiles/clone_rpg.dir/src/character/Character.cpp.o	345f038a6008d554
+16	1017	1777385836835555120	CMakeFiles/clone_rpg.dir/src/mob/MobFactory.cpp.o	d2c281990a12fd64
+14	1084	1777385836834342833	CMakeFiles/clone_rpg.dir/src/main.cpp.o	32f472f7e86e5151
+15	1227	1777385836835257996	CMakeFiles/clone_rpg.dir/src/gameManager/GameManager.cpp.o	e033e4613f8dbf90
+16	1238	1777385836835922452	CMakeFiles/clone_rpg.dir/src/Shop/Shop.cpp.o	570427405f662a2f
+16	1421	1777385836836253409	CMakeFiles/clone_rpg.dir/src/Story/StoryManager.cpp.o	52bf66c9d5ee76ea
+1421	1523	1777385838240660609	clone_rpg	ec4f1270949cbf80

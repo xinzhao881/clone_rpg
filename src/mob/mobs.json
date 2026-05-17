@@ -1,0 +1,14 @@
+{
+ "mobs": {
+   "1": {
+     "id" : "1",
+      "name" : "soldier_1",
+     "str" : 1,
+     "agi" : 1,
+     "def" : 1,
+     "skills": [
+       "slash"
+     ]
+   }
+ }
+}
