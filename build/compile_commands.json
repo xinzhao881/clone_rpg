@@ -31,6 +31,12 @@
 },
 {
   "directory": "/Users/iseungmin/CLionProjects/clone_rpg/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++20 -o CMakeFiles/clone_rpg.dir/src/mob/Mob.cpp.o -c /Users/iseungmin/CLionProjects/clone_rpg/src/mob/Mob.cpp",
+  "file": "/Users/iseungmin/CLionProjects/clone_rpg/src/mob/Mob.cpp",
+  "output": "CMakeFiles/clone_rpg.dir/src/mob/Mob.cpp.o"
+},
+{
+  "directory": "/Users/iseungmin/CLionProjects/clone_rpg/build",
   "command": "/usr/bin/clang++   -g -std=gnu++20 -o CMakeFiles/clone_rpg.dir/src/Items/Item.cpp.o -c /Users/iseungmin/CLionProjects/clone_rpg/src/Items/Item.cpp",
   "file": "/Users/iseungmin/CLionProjects/clone_rpg/src/Items/Item.cpp",
   "output": "CMakeFiles/clone_rpg.dir/src/Items/Item.cpp.o"
@@ -76,6 +82,18 @@
   "command": "/usr/bin/clang++   -g -std=gnu++20 -o CMakeFiles/clone_rpg.dir/src/mob/MobFactory.cpp.o -c /Users/iseungmin/CLionProjects/clone_rpg/src/mob/MobFactory.cpp",
   "file": "/Users/iseungmin/CLionProjects/clone_rpg/src/mob/MobFactory.cpp",
   "output": "CMakeFiles/clone_rpg.dir/src/mob/MobFactory.cpp.o"
+},
+{
+  "directory": "/Users/iseungmin/CLionProjects/clone_rpg/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++20 -o CMakeFiles/clone_rpg.dir/src/skills/Skill.cpp.o -c /Users/iseungmin/CLionProjects/clone_rpg/src/skills/Skill.cpp",
+  "file": "/Users/iseungmin/CLionProjects/clone_rpg/src/skills/Skill.cpp",
+  "output": "CMakeFiles/clone_rpg.dir/src/skills/Skill.cpp.o"
+},
+{
+  "directory": "/Users/iseungmin/CLionProjects/clone_rpg/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++20 -o CMakeFiles/clone_rpg.dir/src/Battle/BattleManager.cpp.o -c /Users/iseungmin/CLionProjects/clone_rpg/src/Battle/BattleManager.cpp",
+  "file": "/Users/iseungmin/CLionProjects/clone_rpg/src/Battle/BattleManager.cpp",
+  "output": "CMakeFiles/clone_rpg.dir/src/Battle/BattleManager.cpp.o"
 },
 {
   "directory": "/Users/iseungmin/CLionProjects/clone_rpg/build",

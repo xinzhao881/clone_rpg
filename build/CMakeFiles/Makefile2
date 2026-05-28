@@ -64,10 +64,12 @@ CMAKE_BINARY_DIR = /Users/iseungmin/CLionProjects/clone_rpg/build
 
 # The main recursive "all" target.
 all: CMakeFiles/clone_rpg.dir/all
+all: CMakeFiles/copy_resources.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/clone_rpg.dir/codegen
+codegen: CMakeFiles/copy_resources.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -76,21 +78,22 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/clone_rpg.dir/clean
+clean: CMakeFiles/copy_resources.dir/clean
 .PHONY : clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/clone_rpg.dir
 
 # All Build rule for target.
-CMakeFiles/clone_rpg.dir/all:
+CMakeFiles/clone_rpg.dir/all: CMakeFiles/copy_resources.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 "Built target clone_rpg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Built target clone_rpg"
 .PHONY : CMakeFiles/clone_rpg.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/clone_rpg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/clone_rpg.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles 0
 .PHONY : CMakeFiles/clone_rpg.dir/rule
@@ -100,15 +103,47 @@ clone_rpg: CMakeFiles/clone_rpg.dir/rule
 .PHONY : clone_rpg
 
 # codegen rule for target.
-CMakeFiles/clone_rpg.dir/codegen:
+CMakeFiles/clone_rpg.dir/codegen: CMakeFiles/copy_resources.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 "Finished codegen for target clone_rpg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Finished codegen for target clone_rpg"
 .PHONY : CMakeFiles/clone_rpg.dir/codegen
 
 # clean rule for target.
 CMakeFiles/clone_rpg.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/clean
 .PHONY : CMakeFiles/clone_rpg.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/copy_resources.dir
+
+# All Build rule for target.
+CMakeFiles/copy_resources.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_resources.dir/build.make CMakeFiles/copy_resources.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_resources.dir/build.make CMakeFiles/copy_resources.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles --progress-num= "Built target copy_resources"
+.PHONY : CMakeFiles/copy_resources.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/copy_resources.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/copy_resources.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles 0
+.PHONY : CMakeFiles/copy_resources.dir/rule
+
+# Convenience name for target.
+copy_resources: CMakeFiles/copy_resources.dir/rule
+.PHONY : copy_resources
+
+# codegen rule for target.
+CMakeFiles/copy_resources.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_resources.dir/build.make CMakeFiles/copy_resources.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles --progress-num= "Finished codegen for target copy_resources"
+.PHONY : CMakeFiles/copy_resources.dir/codegen
+
+# clean rule for target.
+CMakeFiles/copy_resources.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_resources.dir/build.make CMakeFiles/copy_resources.dir/clean
+.PHONY : CMakeFiles/copy_resources.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

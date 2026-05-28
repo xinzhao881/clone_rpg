@@ -136,6 +136,43 @@ clone_rpg/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/build
 .PHONY : clone_rpg/fast
 
+#=============================================================================
+# Target rules for targets named copy_resources
+
+# Build rule for target.
+copy_resources: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 copy_resources
+.PHONY : copy_resources
+
+# fast build rule for target.
+copy_resources/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_resources.dir/build.make CMakeFiles/copy_resources.dir/build
+.PHONY : copy_resources/fast
+
+src/Battle/BattleManager.o: src/Battle/BattleManager.cpp.o
+.PHONY : src/Battle/BattleManager.o
+
+# target to build an object file
+src/Battle/BattleManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/Battle/BattleManager.cpp.o
+.PHONY : src/Battle/BattleManager.cpp.o
+
+src/Battle/BattleManager.i: src/Battle/BattleManager.cpp.i
+.PHONY : src/Battle/BattleManager.i
+
+# target to preprocess a source file
+src/Battle/BattleManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/Battle/BattleManager.cpp.i
+.PHONY : src/Battle/BattleManager.cpp.i
+
+src/Battle/BattleManager.s: src/Battle/BattleManager.cpp.s
+.PHONY : src/Battle/BattleManager.s
+
+# target to generate assembly for a file
+src/Battle/BattleManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/Battle/BattleManager.cpp.s
+.PHONY : src/Battle/BattleManager.cpp.s
+
 src/Gold/Gold.o: src/Gold/Gold.cpp.o
 .PHONY : src/Gold/Gold.o
 
@@ -448,6 +485,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/mob/Mob.o: src/mob/Mob.cpp.o
+.PHONY : src/mob/Mob.o
+
+# target to build an object file
+src/mob/Mob.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/mob/Mob.cpp.o
+.PHONY : src/mob/Mob.cpp.o
+
+src/mob/Mob.i: src/mob/Mob.cpp.i
+.PHONY : src/mob/Mob.i
+
+# target to preprocess a source file
+src/mob/Mob.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/mob/Mob.cpp.i
+.PHONY : src/mob/Mob.cpp.i
+
+src/mob/Mob.s: src/mob/Mob.cpp.s
+.PHONY : src/mob/Mob.s
+
+# target to generate assembly for a file
+src/mob/Mob.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/mob/Mob.cpp.s
+.PHONY : src/mob/Mob.cpp.s
+
 src/mob/MobFactory.o: src/mob/MobFactory.cpp.o
 .PHONY : src/mob/MobFactory.o
 
@@ -471,6 +532,30 @@ src/mob/MobFactory.s: src/mob/MobFactory.cpp.s
 src/mob/MobFactory.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/mob/MobFactory.cpp.s
 .PHONY : src/mob/MobFactory.cpp.s
+
+src/skills/Skill.o: src/skills/Skill.cpp.o
+.PHONY : src/skills/Skill.o
+
+# target to build an object file
+src/skills/Skill.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/skills/Skill.cpp.o
+.PHONY : src/skills/Skill.cpp.o
+
+src/skills/Skill.i: src/skills/Skill.cpp.i
+.PHONY : src/skills/Skill.i
+
+# target to preprocess a source file
+src/skills/Skill.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/skills/Skill.cpp.i
+.PHONY : src/skills/Skill.cpp.i
+
+src/skills/Skill.s: src/skills/Skill.cpp.s
+.PHONY : src/skills/Skill.s
+
+# target to generate assembly for a file
+src/skills/Skill.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clone_rpg.dir/build.make CMakeFiles/clone_rpg.dir/src/skills/Skill.cpp.s
+.PHONY : src/skills/Skill.cpp.s
 
 src/stats/Hp.o: src/stats/Hp.cpp.o
 .PHONY : src/stats/Hp.o
@@ -505,7 +590,11 @@ help:
 	@echo "... codegen"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... copy_resources"
 	@echo "... clone_rpg"
+	@echo "... src/Battle/BattleManager.o"
+	@echo "... src/Battle/BattleManager.i"
+	@echo "... src/Battle/BattleManager.s"
 	@echo "... src/Gold/Gold.o"
 	@echo "... src/Gold/Gold.i"
 	@echo "... src/Gold/Gold.s"
@@ -545,9 +634,15 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/mob/Mob.o"
+	@echo "... src/mob/Mob.i"
+	@echo "... src/mob/Mob.s"
 	@echo "... src/mob/MobFactory.o"
 	@echo "... src/mob/MobFactory.i"
 	@echo "... src/mob/MobFactory.s"
+	@echo "... src/skills/Skill.o"
+	@echo "... src/skills/Skill.i"
+	@echo "... src/skills/Skill.s"
 	@echo "... src/stats/Hp.o"
 	@echo "... src/stats/Hp.i"
 	@echo "... src/stats/Hp.s"

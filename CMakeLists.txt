@@ -16,6 +16,7 @@ add_executable(clone_rpg src/main.cpp
         "src/gameManager/GameManager.h"
         "src/gameManager/GameManager.cpp"
         src/mob/Mob.h
+        src/mob/Mob.cpp
         src/mob/Goblin.h
         src/Items/Item.h
         src/Items/Item.cpp
@@ -35,6 +36,9 @@ add_executable(clone_rpg src/main.cpp
         src/Items/ItemFactory.cpp
         src/mob/MobFactory.cpp
         src/skills/Skill.h
+        src/skills/Skill.cpp
+        src/Battle/BattleManager.h
+        src/Battle/BattleManager.cpp
         src/Shop/Shop.h
         src/Shop/Shop.cpp
         src/Story/StoryManager.cpp
@@ -44,4 +48,17 @@ add_executable(clone_rpg src/main.cpp
 set(RESOURCE_DIR ${CMAKE_SOURCE_DIR}/src)
 file(COPY ${RESOURCE_DIR}/GameManager/story.json DESTINATION ${CMAKE_BINARY_DIR})
 file(COPY ${RESOURCE_DIR}/Items/Items.json DESTINATION ${CMAKE_BINARY_DIR})
+file(COPY ${RESOURCE_DIR}/mob/mobs.json DESTINATION ${CMAKE_BINARY_DIR})
 
+add_custom_target(copy_resources ALL
+        COMMAND ${CMAKE_COMMAND} -E copy_if_different
+                ${RESOURCE_DIR}/GameManager/story.json
+                ${CMAKE_BINARY_DIR}/story.json
+        COMMAND ${CMAKE_COMMAND} -E copy_if_different
+                ${RESOURCE_DIR}/Items/Items.json
+                ${CMAKE_BINARY_DIR}/Items.json
+        COMMAND ${CMAKE_COMMAND} -E copy_if_different
+                ${RESOURCE_DIR}/mob/mobs.json
+                ${CMAKE_BINARY_DIR}/mobs.json
+)
+add_dependencies(clone_rpg copy_resources)

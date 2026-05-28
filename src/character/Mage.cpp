@@ -11,5 +11,11 @@ Mage::Mage(std::string inputName) : Character(inputName) {
     hptype hpGrowth = 19u;
     hp = Hp(hpGrowth, hpGrowth);
     stats = StatBlock(baseStrength, baseIntelligence);
+    stats.setAgility(7);
+    stats.setDefense(3);
+    skills = SkillBook::defaultSkillsForMage();
+    for (const auto& skill : skills) {
+        skillMastery[skill.id] = 0;
+    }
     std::cout<<"You are Mage!\n";
 }

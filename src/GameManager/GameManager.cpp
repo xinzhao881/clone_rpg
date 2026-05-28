@@ -3,7 +3,9 @@
 #include <iostream>
 #include <limits>
 #include <string>
+#include "../Battle/BattleManager.h"
 #include "../Items/ItemFactory.h"
+#include "../mob/MobFactory.h"
 #include "../Shop/Shop.h"
 #include "../Story/StoryManager.h"
 
@@ -29,14 +31,11 @@ void GameManager::run() {
                 handleStoryState();
                 break;
             case GameState::MENU:
-                // Placeholder
                 handleMenuState();
                 std::cout << "Menu not implemented yet." << std::endl;
                 state = GameState::EXIT;
                 break;
             case GameState::BATTLE:
-                // Placeholder
-                std::cout << "Battle not implemented yet." << std::endl;
                 handleBattleState();
                 break;
             case GameState::SHOP:
@@ -80,15 +79,22 @@ void GameManager::handleMenuState() {
 
 
 void GameManager::handleBattleState() {
-    if (!currentBattleMobIds.empty()) {
-        std::cout << "Encounter triggered. Spawned mobs:" << std::endl;
-        for (const auto& mobId : currentBattleMobIds) {
-            std::cout << "- mob_id: " << mobId << std::endl;
-        }
-        currentBattleMobIds.clear();
+    if (currentBattleMobIds.empty()) {
+        currentBattleMobIds.push_back("BattleDummy");
     }
 
-    state=GameState::STORY;
+    std::vector<std::unique_ptr<Mob>> mobs;
+    for (const auto& mobId : currentBattleMobIds) {
+        auto mob = MobFactory::createMobById(mobId);
+        if (mob != nullptr) {
+            mobs.push_back(std::move(mob));
+        }
+    }
+    currentBattleMobIds.clear();
+
+    BattleManager battleManager(*player, std::move(mobs));
+    const bool won = battleManager.run();
+    state = won ? GameState::STORY : GameState::EXIT;
 }
 
 void GameManager::handleShopState(Character& character) {

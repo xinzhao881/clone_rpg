@@ -14,10 +14,11 @@ bool Hp::setMaxHP(hptype newMaxHP) {
 }
 
 void Hp::takeDamage(hptype damage) {
-    currentHP -= damage;
-    if (currentHP <= 0) {
+    if (damage >= currentHP) {
         currentHP = 0;
+        return;
     }
+    currentHP -= damage;
 }
 
 void Hp::heal(hptype heal) {

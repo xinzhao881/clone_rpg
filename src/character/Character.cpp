@@ -3,6 +3,7 @@
 //
 #include "Character.h"
 
+#include <algorithm>
 #include <iostream>
 #include <__ostream/basic_ostream.h>
 
@@ -27,6 +28,66 @@ void Character::equip(Armor &armor) {
 }
 void Character::healHp(hptype heal) {
     this->hp.heal(heal);
+}
+
+bool Character::isAlive() const {
+    return hp.getCurrentHP() > 0;
+}
+
+int Character::getCurrentHp() const {
+    return hp.getCurrentHP();
+}
+
+int Character::getMaxHp() const {
+    return hp.getMaxHP();
+}
+
+int Character::getStrength() const {
+    return stats.getStrength();
+}
+
+int Character::getIntelligence() const {
+    return stats.getIntelligence();
+}
+
+int Character::getAgility() const {
+    return stats.getAgility();
+}
+
+int Character::getDefense() const {
+    return stats.getDefense();
+}
+
+int Character::getSpeed() const {
+    return 10 + stats.getAgility();
+}
+
+int Character::getMaxStamina() const {
+    return maxStamina;
+}
+
+int Character::getStaminaRegen() const {
+    return staminaRegen;
+}
+
+void Character::takeDamage(int damage) {
+    hp.takeDamage(static_cast<hptype>(std::max(0, damage)));
+}
+
+const std::vector<Skill>& Character::getSkills() const {
+    return skills;
+}
+
+int Character::getSkillMasteryLevel(const std::string& skillId) const {
+    const auto it = skillMastery.find(skillId);
+    if (it == skillMastery.end()) {
+        return 0;
+    }
+    return it->second;
+}
+
+void Character::gainSkillMastery(const std::string& skillId, int amount) {
+    skillMastery[skillId] += amount;
 }
 
 void Character::addItem(std::unique_ptr<Item>&& item, int quantity_) {

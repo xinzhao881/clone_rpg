@@ -872,17 +872,14 @@ CMakeFiles/clone_rpg.dir/src/gameManager/GameManager.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_defaults.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
   /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../character/Character.h \
-  /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../character/../Items/Equipment.h \
-  /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../character/../Items/Armor/Armor.h \
-  /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../character/../Items/Armor/../Item.h \
-  /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../character/../Items/Weapon/Weapon.h \
-  /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../character/../Items/Weapon/../Item.h \
-  /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../character/../Items/Item.h \
-  /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../character/../stats/Hp.h \
-  /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../character/../stats/HitPointTypes.h \
-  /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../character/../stats/StatBlock.h \
-  /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../character/../Gold/Gold.h \
-  /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/json.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/map \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/is_transparent.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/erase_if_container.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/ranges_iterator_traits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__node_handle \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/can_extract_key.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_const_ref.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_negate.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/bind.h \
@@ -898,21 +895,25 @@ CMakeFiles/clone_rpg.dir/src/gameManager/GameManager.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/strip_signature.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/boyer_moore_searcher.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_map \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/is_transparent.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__hash_table \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/can_extract_key.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_const_ref.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/erase_if_container.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/ranges_iterator_traits.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__node_handle \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/default_searcher.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/not_fn.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/perfect_forward.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/bind_back.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/bind_front.h \
+  /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../character/../Items/Equipment.h \
+  /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../character/../Items/Armor/Armor.h \
+  /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../character/../Items/Armor/../Item.h \
+  /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../character/../Items/Weapon/Weapon.h \
+  /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../character/../Items/Weapon/../Item.h \
+  /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../character/../Items/Item.h \
+  /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../character/../skills/Skill.h \
+  /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../character/../stats/Hp.h \
+  /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../character/../stats/HitPointTypes.h \
+  /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../character/../stats/StatBlock.h \
+  /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../character/../Gold/Gold.h \
+  /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/json.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/map \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/valarray \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/assert.h \
@@ -1025,10 +1026,19 @@ CMakeFiles/clone_rpg.dir/src/gameManager/GameManager.cpp.o: \
   /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../Common/GameState.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
+  /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../Battle/BattleManager.h \
+  /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../Battle/../character/Character.h \
+  /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../Battle/../mob/Mob.h \
+  /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../Battle/../mob/../skills/Skill.h \
+  /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../Battle/../mob/../stats/Hp.h \
+  /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../Battle/../mob/../stats/StatBlock.h \
   /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../Items/ItemFactory.h \
   /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../Items/Item.h \
   /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../Items/Potion.h \
   /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../Items/../GameManager/json.hpp \
+  /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../mob/MobFactory.h \
+  /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../mob/Mob.h \
+  /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../mob/../GameManager/json.hpp \
   /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../Shop/Shop.h \
   /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../Shop/../character/Character.h \
   /Users/iseungmin/CLionProjects/clone_rpg/src/gameManager/../Shop/../GameManager/json.hpp \

@@ -16,6 +16,7 @@
 					],
 					"linkDirectories" : 
 					[
+						"/usr/local/lib",
 						"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib",
 						"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift"
 					],
@@ -50,6 +51,7 @@
 					],
 					"linkDirectories" : 
 					[
+						"/usr/local/lib",
 						"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib",
 						"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift"
 					],

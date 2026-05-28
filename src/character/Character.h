@@ -1,9 +1,11 @@
 #ifndef CHARACTER_H
 #define CHARACTER_H
-    #include <string>
+#include <map>
+#include <string>
 #include <vector>
 #include "../Items/Equipment.h"
 #include "../Items/Item.h"
+#include "../skills/Skill.h"
 #include "../stats/Hp.h"
 #include "../stats/StatBlock.h"
 #include "../Gold/Gold.h"
@@ -21,6 +23,20 @@ public:
     void equip(Armor& armor);
     void equip(Weapon& weapon);
     void healHp(hptype heal);
+    bool isAlive() const;
+    int getCurrentHp() const;
+    int getMaxHp() const;
+    int getStrength() const;
+    int getIntelligence() const;
+    int getAgility() const;
+    int getDefense() const;
+    int getSpeed() const;
+    int getMaxStamina() const;
+    int getStaminaRegen() const;
+    void takeDamage(int damage);
+    const std::vector<Skill>& getSkills() const;
+    int getSkillMasteryLevel(const std::string& skillId) const;
+    void gainSkillMastery(const std::string& skillId, int amount);
     void addItem(std::unique_ptr<Item>&& item, int quantity_);
     void removeItem(int index);
     void decreaseGold(int value);
@@ -37,6 +53,10 @@ protected:
     Inventory inventory;
     Equipment equipment;
     Gold gold;
+    std::vector<Skill> skills;
+    std::map<std::string, int> skillMastery;
+    int maxStamina = 100;
+    int staminaRegen = 3;
 };
 
 

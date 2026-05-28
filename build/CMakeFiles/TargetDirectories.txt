@@ -1,3 +1,4 @@
 /Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles/clone_rpg.dir
+/Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles/copy_resources.dir
 /Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles/edit_cache.dir
 /Users/iseungmin/CLionProjects/clone_rpg/build/CMakeFiles/rebuild_cache.dir

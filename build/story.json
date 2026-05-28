@@ -9,7 +9,7 @@
           "function": "Shop"
         },
         {
-          "text": "주둔지 밖으로 간다.",면
+          "text": "주둔지 밖으로 간다.",
           "next_node": 3,
           "function": "Move",
           "encounter" : {

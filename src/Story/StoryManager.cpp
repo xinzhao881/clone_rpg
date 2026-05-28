@@ -63,11 +63,10 @@ StoryManager::NextBehavior StoryManager::getNextBehavior(int index) {
     const auto& choice = choices[index - 1];
     const std::string function = choice.value("function", "");
 
-    if (choice.contains("next_node") && !choice["next_node"].is_null()) {
-        nextBehavior.nextIndex = choice["next_node"].get<int>();
-    }
-
     if (function == "Move") {
+        if (choice.contains("next_node") && !choice["next_node"].is_null()) {
+            nextBehavior.nextIndex = choice["next_node"].get<int>();
+        }
         if (choice.contains("encounter") && shouldTriggerEncounter(choice["encounter"])) {
             nextBehavior.nextState = GameState::BATTLE;
             nextBehavior.mobIds = generateEncounterMobIds(choice["encounter"]);
@@ -76,6 +75,9 @@ StoryManager::NextBehavior StoryManager::getNextBehavior(int index) {
         nextBehavior.nextState = GameState::STORY;
     }
     else if (function == "Battle") {
+        if (choice.contains("next_node") && !choice["next_node"].is_null()) {
+            nextBehavior.nextIndex = choice["next_node"].get<int>();
+        }
         nextBehavior.nextState = GameState::BATTLE;
         if (choice.contains("Mobs")) {
             for (const auto& id : choice["Mobs"]) {

@@ -2,12 +2,11 @@
 	"configurations" : 
 	[
 		{
-			"abstractTargets" : [],
 			"directories" : 
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-9ad1a58d4644cf6543fa.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.31"
@@ -16,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -31,7 +31,8 @@
 					"name" : "clone_rpg",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -40,8 +41,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "clone_rpg::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-clone_rpg-Debug-77ebff91052cad89361e.json",
+					"jsonFile" : "target-clone_rpg-Debug-924a13d2896e7db86f6e.json",
 					"name" : "clone_rpg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "copy_resources::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-copy_resources-Debug-9834aa4abdfc0d2edb56.json",
+					"name" : "copy_resources",
 					"projectIndex" : 0
 				}
 			]
@@ -56,6 +64,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 9
+		"minor" : 8
 	}
 }
