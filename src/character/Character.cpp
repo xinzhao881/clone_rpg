@@ -5,7 +5,6 @@
 
 #include <algorithm>
 #include <iostream>
-#include <__ostream/basic_ostream.h>
 
 void Character::equip(Weapon& weapon) {
     if (!equipment.isWeaponValid()) {

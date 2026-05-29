@@ -1,19 +1,18 @@
 #include <iostream>
 #include <memory>
-#include "character/Character.h"
-#include "character/Mage.h"
-#include "character/Warrior.h"
-#include "GameManager/GameManager.h"
-
-
-#include <iostream>
-#include <memory>
+#ifdef _WIN32
+#include <windows.h>
+#endif
 #include "character/Character.h"
 #include "character/Mage.h"
 #include "character/Warrior.h"
 #include "GameManager/GameManager.h"
 
 int main() {
+#ifdef _WIN32
+    SetConsoleOutputCP(CP_UTF8);
+    SetConsoleCP(CP_UTF8);
+#endif
     std::string name;
     int choice = 0;
 

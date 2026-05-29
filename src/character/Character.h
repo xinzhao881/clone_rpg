@@ -1,6 +1,7 @@
 #ifndef CHARACTER_H
 #define CHARACTER_H
 #include <map>
+#include <memory>
 #include <string>
 #include <vector>
 #include "../Items/Equipment.h"
