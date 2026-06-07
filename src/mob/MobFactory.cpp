@@ -55,6 +55,7 @@ std::unique_ptr<Mob> MobFactory::createMobById(const std::string& mobId) {
             data.value("name", "unknown"),
             Hp(static_cast<hptype>(maxHp), static_cast<hptype>(maxHp)),
             stats,
-            skills
+            skills,
+            data.value("exp", 0)
     );
 }

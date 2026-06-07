@@ -17,17 +17,33 @@ public:
     [[nodiscard]] statType getDefense() const { return defenseStat; }
     [[nodiscard]] statType getInsight() const { return insightStat; }
     [[nodiscard]] statType getLuck() const { return luckStat; }
+    [[nodiscard]] int getExperience() const { return experienceStat; }
+    [[nodiscard]] int getExpToNextLevel() const { return level * 50; }
 
+    void setLevel(statType _level) { level = _level; }
+    void setStrength(statType strength) { strengthStat = strength; }
+    void setIntelligence(statType intelligence) { intelligenceStat = intelligence; }
     void setAgility(statType agility) { agilityStat = agility; }
     void setDefense(statType defense) { defenseStat = defense; }
     void setInsight(statType insight) { insightStat = insight; }
     void setLuck(statType luck) { luckStat = luck; }
 
+    bool gainExperience(int amount) {
+        experienceStat += amount;
+        bool leveledUp = false;
+        while (experienceStat >= getExpToNextLevel()) {
+            experienceStat -= getExpToNextLevel();
+            level++;
+            leveledUp = true;
+        }
+        return leveledUp;
+    }
+
 private:
     statType level;
     statType strengthStat;
     statType intelligenceStat;
-    statType experienceStat;
+    int experienceStat;
     statType agilityStat;
     statType defenseStat;
     statType insightStat;

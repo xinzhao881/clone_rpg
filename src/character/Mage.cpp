@@ -19,3 +19,10 @@ Mage::Mage(std::string inputName) : Character(inputName) {
     }
     std::cout<<"You are Mage!\n";
 }
+
+void Mage::onLevelUp() {
+    Character::onLevelUp();
+    stats.setIntelligence(stats.getIntelligence() + 2);
+    stats.setInsight(stats.getInsight() + 1);
+    std::cout << "Intelligence +2, Insight +1" << std::endl;
+}

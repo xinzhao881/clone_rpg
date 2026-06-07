@@ -18,3 +18,10 @@ Warrior::Warrior(std::string inputName):Character(inputName){
     }
     std::cout<<"You are Warrior!\n";
 }
+
+void Warrior::onLevelUp() {
+    Character::onLevelUp();
+    stats.setStrength(stats.getStrength() + 2);
+    stats.setAgility(stats.getAgility() + 1);
+    std::cout << "Strength +2, Agility +1" << std::endl;
+}

@@ -3,8 +3,8 @@
 #include <algorithm>
 #include <utility>
 
-Mob::Mob(std::string id, std::string name, Hp hp, StatBlock stats, std::vector<Skill> skills)
-    : id(std::move(id)), name(std::move(name)), hp(hp), stats(stats), skills(std::move(skills)) {
+Mob::Mob(std::string id, std::string name, Hp hp, StatBlock stats, std::vector<Skill> skills, int expReward)
+    : id(std::move(id)), name(std::move(name)), hp(hp), stats(stats), skills(std::move(skills)), expReward(expReward) {
     for (const auto& skill : this->skills) {
         skillMastery[skill.id] = 0;
     }
@@ -56,6 +56,10 @@ int Mob::getMaxStamina() const {
 
 int Mob::getStaminaRegen() const {
     return staminaRegen;
+}
+
+int Mob::getExpReward() const {
+    return expReward;
 }
 
 void Mob::takeDamage(int damage) {

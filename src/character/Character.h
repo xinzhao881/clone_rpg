@@ -32,9 +32,14 @@ public:
     int getAgility() const;
     int getDefense() const;
     int getSpeed() const;
+    int getLevel() const;
+    int getExp() const;
+    int getExpToNextLevel() const;
     int getMaxStamina() const;
     int getStaminaRegen() const;
     void takeDamage(int damage);
+    void gainExp(int amount);
+    virtual void onLevelUp();
     const std::vector<Skill>& getSkills() const;
     int getSkillMasteryLevel(const std::string& skillId) const;
     void gainSkillMastery(const std::string& skillId, int amount);

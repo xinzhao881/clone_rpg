@@ -61,6 +61,18 @@ int Character::getSpeed() const {
     return 10 + stats.getAgility();
 }
 
+int Character::getLevel() const {
+    return stats.getLevel();
+}
+
+int Character::getExp() const {
+    return stats.getExperience();
+}
+
+int Character::getExpToNextLevel() const {
+    return stats.getExpToNextLevel();
+}
+
 int Character::getMaxStamina() const {
     return maxStamina;
 }
@@ -71,6 +83,20 @@ int Character::getStaminaRegen() const {
 
 void Character::takeDamage(int damage) {
     hp.takeDamage(static_cast<hptype>(std::max(0, damage)));
+}
+
+void Character::gainExp(int amount) {
+    if (stats.gainExperience(amount)) {
+        onLevelUp();
+    }
+}
+
+void Character::onLevelUp() {
+    std::cout << "\nLEVEL UP! " << name << " is now level " << stats.getLevel() << "!" << std::endl;
+    // 기본적으로 HP를 약간 올려줌
+    hptype currentMax = hp.getMaxHP();
+    hp.setMaxHP(currentMax + 10);
+    hp.heal(10);
 }
 
 const std::vector<Skill>& Character::getSkills() const {

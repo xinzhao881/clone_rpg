@@ -30,6 +30,7 @@ struct Skill {
 
 class SkillBook {
 public:
+    static void init();
     static const Skill* findById(const std::string& skillId);
     static std::vector<Skill> defaultSkillsForWarrior();
     static std::vector<Skill> defaultSkillsForMage();

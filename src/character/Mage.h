@@ -12,6 +12,7 @@ class Mage : public Character {
 public:
     Mage(std::string inputName);
     ~Mage() = default;
+    void onLevelUp() override;
 private:
     static const statType baseStrength = 10u;
     static const statType baseIntelligence =19u;

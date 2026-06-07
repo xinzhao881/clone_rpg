@@ -10,7 +10,7 @@
 
 class Mob {
 public:
-    Mob(std::string id, std::string name, Hp hp, StatBlock stats, std::vector<Skill> skills);
+    Mob(std::string id, std::string name, Hp hp, StatBlock stats, std::vector<Skill> skills, int expReward = 0);
 
     std::string getId() const;
     std::string getName() const;
@@ -28,7 +28,7 @@ public:
     const std::vector<Skill>& getSkills() const;
     int getSkillMasteryLevel(const std::string& skillId) const;
     void gainSkillMastery(const std::string& skillId, int amount);
-
+    int getExpReward() const;
 private:
     std::string id;
     std::string name;
@@ -38,6 +38,8 @@ private:
     std::map<std::string, int> skillMastery;
     int maxStamina = 80;
     int staminaRegen = 2;
+    int expReward = 0;
 };
 
 #endif //MOB_H
+MOB_H

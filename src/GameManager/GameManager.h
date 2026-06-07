@@ -12,11 +12,12 @@
 #include "json.hpp"
 #include "../Common/GameState.h"
 
+#include "../Story/StoryManager.h"
+
 class GameManager {
 public:
     GameManager(std::shared_ptr<Character> playerCharacter);
     void run();
-    void loadStory();
     void handleStoryState();
     void loadBattle();
     void handleBattleState();
@@ -39,10 +40,10 @@ private:
     GameState state;
     bool isRunning;
     std::shared_ptr<Character> player;
-    nlohmann::json storyData;
     nlohmann::json shopData;
     int currentNode;
     std::vector<std::string> currentBattleMobIds;
+    StoryManager storyManager;
 };
 
 #endif //GAMEMANAGER_H
