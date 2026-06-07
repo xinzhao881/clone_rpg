@@ -31,6 +31,7 @@ private:
 
     nlohmann::json storyData;
     nlohmann::json currentNodeData;
+    std::unordered_map<int, bool> hasVisited;
 };
 
 

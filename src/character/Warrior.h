@@ -13,6 +13,7 @@ class Warrior : public Character{
 public:
     Warrior(std::string inputName);
     ~Warrior() = default;
+    void onLevelUp() override;
  private:
      static const statType baseStrength = 19u;
      static const statType baseIntelligence =10u;

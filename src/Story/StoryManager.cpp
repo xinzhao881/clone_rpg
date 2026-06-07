@@ -19,6 +19,7 @@ void StoryManager::initStoryData() {
     if (f.is_open()) {
         storyData = nlohmann::json::parse(f);
     }
+    hasVisited.clear();
 }
 
 void StoryManager::showCurrStory(int index) {
@@ -34,7 +35,15 @@ void StoryManager::showCurrStory(int index) {
         std::cerr << "Story node not found" << std::endl;
         return;
     }
+
     std::cout << "\n------------------------------------\n";
+    if (!hasVisited[index]) {
+        if (currentNodeData.contains("story") && !currentNodeData["story"].is_null()) {
+            std::cout << currentNodeData["story"] << "\n\n";
+        }
+        hasVisited[index] = true;
+    }
+
     std::cout << currentNodeData["description"] << std::endl;
     std::cout << "\n------------------------------------\n";
     const auto &choices = currentNodeData["choices"];

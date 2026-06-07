@@ -8,9 +8,11 @@
 #include "../mob/MobFactory.h"
 #include "../Shop/Shop.h"
 #include "../Story/StoryManager.h"
+#include "../skills/Skill.h"
 
 GameManager::GameManager(std::shared_ptr<Character> playerCharacter)
     : isRunning(true), state(GameState::STORY), currentNode(1), player(std::move(playerCharacter)) {
+    SkillBook::init();
     loadStory();
 }
 

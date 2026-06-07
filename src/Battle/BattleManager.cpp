@@ -111,6 +111,12 @@ bool BattleManager::run() {
 
     if (playerWon()) {
         std::cout << "전투에서 승리했습니다." << std::endl;
+        int totalExp = 0;
+        for (const auto& mob : mobs) {
+            totalExp += mob->getExpReward();
+        }
+        std::cout << totalExp << " 경험치를 획득했습니다!" << std::endl;
+        player.gainExp(totalExp);
         return true;
     }
 
@@ -379,33 +385,8 @@ const Skill* BattleManager::chooseMobSkill(const BattleActor& actor) const {
 }
 
 void BattleManager::chooseDefensePolicy(BattleActor& actor) {
-    std::cout << "\n방어 성향을 선택하세요." << std::endl;
-    std::cout << "1: 균형  2: 회피  3: 막기  4: 패리" << std::endl;
-    std::cout << "> ";
-
-    int choice = 0;
-    std::cin >> choice;
-    if (std::cin.fail()) {
-        std::cin.clear();
-        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-        actor.defensePolicy = DefensePolicy::Balanced;
-        return;
-    }
-
-    switch (choice) {
-        case 2:
-            actor.defensePolicy = DefensePolicy::Dodge;
-            break;
-        case 3:
-            actor.defensePolicy = DefensePolicy::Block;
-            break;
-        case 4:
-            actor.defensePolicy = DefensePolicy::Parry;
-            break;
-        default:
-            actor.defensePolicy = DefensePolicy::Balanced;
-            break;
-    }
+    // 일단 지금은 1(Balanced)로 하드코딩
+    actor.defensePolicy = DefensePolicy::Balanced;
 }
 
 void BattleManager::printBattleStatus() const {
@@ -428,4 +409,8 @@ bool BattleManager::rollPercent(int chance) const {
     static std::mt19937 generator(rd());
     std::uniform_int_distribution<int> distribution(1, 100);
     return distribution(generator) <= chance;
+}
+
+int BattleManager::getExpReward() const {
+
 }

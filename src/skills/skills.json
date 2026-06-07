@@ -1,0 +1,48 @@
+{
+  "skills": {
+    "slash": {
+      "name": "베기",
+      "type": "Damage",
+      "stat": "Strength",
+      "power": 5,
+      "time_cost": 100,
+      "min_time_cost": 60,
+      "stamina_cost": 20,
+      "min_stamina_cost": 8,
+      "accuracy": 90
+    },
+    "heavy_slash": {
+      "name": "강한 베기",
+      "type": "Damage",
+      "stat": "Strength",
+      "power": 10,
+      "time_cost": 140,
+      "min_time_cost": 90,
+      "stamina_cost": 35,
+      "min_stamina_cost": 18,
+      "accuracy": 80
+    },
+    "fireball": {
+      "name": "파이어볼",
+      "type": "Damage",
+      "stat": "Intelligence",
+      "power": 8,
+      "time_cost": 120,
+      "min_time_cost": 75,
+      "stamina_cost": 28,
+      "min_stamina_cost": 12,
+      "accuracy": 85
+    },
+    "wait": {
+      "name": "숨 고르기",
+      "type": "Recover",
+      "stat": "Strength",
+      "power": 12,
+      "time_cost": 60,
+      "min_time_cost": 60,
+      "stamina_cost": 0,
+      "min_stamina_cost": 0,
+      "accuracy": 100
+    }
+  }
+}

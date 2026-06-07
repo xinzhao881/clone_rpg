@@ -7,12 +7,14 @@
 #include "character/Mage.h"
 #include "character/Warrior.h"
 #include "GameManager/GameManager.h"
+#include "skills/Skill.h"
 
 int main() {
 #ifdef _WIN32
     SetConsoleOutputCP(CP_UTF8);
     SetConsoleCP(CP_UTF8);
 #endif
+    SkillBook::init();
     std::string name;
     int choice = 0;
 

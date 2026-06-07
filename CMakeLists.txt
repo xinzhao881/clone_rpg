@@ -49,6 +49,7 @@ set(RESOURCE_DIR ${CMAKE_SOURCE_DIR}/src)
 file(COPY ${RESOURCE_DIR}/GameManager/story.json DESTINATION ${CMAKE_BINARY_DIR})
 file(COPY ${RESOURCE_DIR}/Items/Items.json DESTINATION ${CMAKE_BINARY_DIR})
 file(COPY ${RESOURCE_DIR}/mob/mobs.json DESTINATION ${CMAKE_BINARY_DIR})
+file(COPY ${RESOURCE_DIR}/skills/skills.json DESTINATION ${CMAKE_BINARY_DIR})
 
 add_custom_target(copy_resources ALL
         COMMAND ${CMAKE_COMMAND} -E copy_if_different
@@ -60,5 +61,8 @@ add_custom_target(copy_resources ALL
         COMMAND ${CMAKE_COMMAND} -E copy_if_different
                 ${RESOURCE_DIR}/mob/mobs.json
                 ${CMAKE_BINARY_DIR}/mobs.json
+        COMMAND ${CMAKE_COMMAND} -E copy_if_different
+                ${RESOURCE_DIR}/skills/skills.json
+                ${CMAKE_BINARY_DIR}/skills.json
 )
 add_dependencies(clone_rpg copy_resources)
