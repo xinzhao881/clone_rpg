@@ -13,6 +13,17 @@
 GameManager::GameManager(std::shared_ptr<Character> playerCharacter)
     : isRunning(true), state(GameState::STORY), currentNode(1), player(std::move(playerCharacter)) {
     SkillBook::init();
+    loadStory();
+}
+
+void GameManager::loadStory() {
+    std::ifstream f("story.json");
+    if (f.is_open()) {
+        storyData = nlohmann::json::parse(f);
+    } else {
+        std::cerr << "Could not open story.json" << std::endl;
+        isRunning = false;
+    }
 }
 
 void GameManager::run() {
@@ -42,6 +53,7 @@ void GameManager::run() {
 }
 
 void GameManager::handleStoryState() {
+    StoryManager storyManager;
     int userChoice;
 
     storyManager.showCurrStory(currentNode);

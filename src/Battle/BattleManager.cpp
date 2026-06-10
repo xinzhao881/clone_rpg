@@ -412,3 +412,7 @@ bool BattleManager::rollPercent(int chance) const {
     std::uniform_int_distribution<int> distribution(1, 100);
     return distribution(generator) <= chance;
 }
+
+int BattleManager::getExpReward() const {
+
+}

@@ -67,6 +67,7 @@ private:
     void chooseDefensePolicy(BattleActor& actor);
     void printBattleStatus() const;
     bool rollPercent(int chance) const;
+    int getExpReward() const;
 };
 
 #endif //BATTLEMANAGER_H
